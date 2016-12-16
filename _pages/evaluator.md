@@ -13,8 +13,8 @@ Brain tractography uses diffusion-weighted MRI measurements from living humans t
 
 To date, several tractography methods and diffusion data types exist and often times investigators have <em>no principled ways</em> to choose among the many options.
 
+We provide a few quantitative estimates of <strong>connectome</strong> quality, given a sample data set provided by an investigator. This service takes as input <code>Diffusion-weighted MRI data (DWI)</code> and <code>T1-weighted anatomical data</code> and returns as output a full brain <strong>connectome</strong> mapped with modern tractography methods. 
+
 <img src="images/comparison.png">
 
-We provide a few quantitative estimates of <strong>connectome</strong> quality, given a sample data set provided by an investigator.
-
-This service takes as input <code>Diffusion-weighted MRI data (DWI)</code> and <code>T1-weighted anatomical data</code> and returns as output a full brain <strong>connectome</strong> mapped with modern tractography methods. In addition to that it also returns a few quantitative measures of to inform the investigator that colelcted the data the quality of the expected results that can be achived with such data. We compare the results to those optained with a few sample subjects from the human <strong>connectome</strong> data, the Stanford data set.
+We also provide a few quantitative measures to inform the investigator the quality of the expected results that can be achived with such data. We compare the results to those optained with a few sample subjects from the human <strong>connectome</strong> data, the Stanford data set.
