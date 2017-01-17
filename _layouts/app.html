@@ -6,16 +6,23 @@
   <body>
     <section class="page-header app-header">
         <h1 class="proect-name">{{ page.title }}</h1>
-        <a href="{{page.starturl}}" class="btn animated bounceIn">Start</a>
+        {% if page.subtitle %} 
+            <h2>{{page.subtitle}}</h2>
+        {% endif %}
+        {% if page.starturl %} 
+            <a href="{{page.starturl}}" class="btn animated bounceIn">Start</a>
+        {% endif %}
     </section>
 
     <section class="main-content">
       
       {{ content }}
 
+      {% if page.starturl %} 
       <center style="margin: 75px 0px; font-size: 150%;">
          <a href="{{page.starturl}}" class="btn btn-gray">Start</a>
       </center>
+      {% endif %} 
 
       {% include page-footer.html %}
 
