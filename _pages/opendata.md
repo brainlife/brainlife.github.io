@@ -115,7 +115,19 @@ We used the [LiFE (Linear Fascicle Evaluation)](https://francopestilli.github.io
 
 ## Tract segmentation
 
-Whole brain fascicles groups comprising only the tracts successfully contributing to predicting the measured dMRI signal as evaluated using LiFE were segmented to generated twenty of the major human white matter fascicle.
+Whole brain fascicles groups comprising only the tracts successfully contributing to predicting the measured dMRI signal as evaluated using LiFE were segmented to generated following major human white matter fascicle.
+
+- Anterior thalamic radiation (ATRl) (ATRr)
+- Corticospinal tracts (CSTl) (CSTr)
+- Cingulum - cingulate gyrus (CCgl) (CCgr)
+- Cingulum - hippocampus (CHyl) (CHyr)
+- Forceps major (FMJ)
+- Forceps minor (FMI)
+- Inferior fronto-occipital fasciculus (IFOFl) (IFOFr)
+- Inferior longitudinal fasciculus (ILFl) (ILFr)
+- Superior longitudinal fasciculus (SLFl) (SLFr)
+- Uncinate fasciculus (UFl) (UFr)
+- Superior longitudinal fasciculus - temporal part (SLFTl) (SLFTr)
 
 <!--
 ## Tractogram registration
