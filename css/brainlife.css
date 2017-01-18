@@ -33,21 +33,22 @@ overflow-x: hidden; /*for testimony padding*/
     column-count: 3;
 }
 
-.main-content .testimony {
+.main-content .blueback {
     margin: 0 -9999rem;
     padding: 5rem 9999rem;
     background-color: #155799;
 }
-.main-content .testimony h1 {
+.main-content .blueback h1,
+.main-content .blueback h2 {
     color: white;
     opacity: 0.7;
 }
-.main-content .testimony blockquote {
+
+.main-content .blueback blockquote {
     color: white;
     opacity: 0.9;
 }
-
-.main-content .testimony .ref {
+.main-content .blueback a {
     font-style: italic;
     color: #5f9;
 }
