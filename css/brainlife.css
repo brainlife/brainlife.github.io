@@ -1,5 +1,5 @@
 body {
-overflow-x: hidden; /*for testimony padding*/
+    overflow-x: hidden; /*for testimony padding*/
 }
 .btn {
     font-weight: bold;
@@ -52,3 +52,4 @@ overflow-x: hidden; /*for testimony padding*/
     font-style: italic;
     color: #5f9;
 }
+

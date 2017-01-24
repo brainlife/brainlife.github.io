@@ -1,24 +1,134 @@
 ---
-layout: default
 title: {{ site.name }}
+layout: landing
 ---
 
-<div id="home">
-    <h3>About</h3>
-    <p>This portal hosts a series of projects to support computational neuroscience research.</p>
-    <blockquote>
-    A new generation of computational neuroscience tools for big data neuroscience.
-    </blockquote>
+<style>
+.apps {
+    padding-bottom: 20px;
+    clear: both;
+}
+.apps .app-tile {
+    position: relative;
 
-    <h3>Authors and Contributors</h3>
-    2016 Franco Pestilli (<a href="https://github.com/francopestilli">@francopestilli</a>) and 
-    Soichi Hayashi (<a href="https://github.com/soichih">@soichih</a>) Indiana University. 
+    width: 255px;
+    height: 200px;
+    background-color: #eee;
+    display: inline-block;
+    margin: 8px;
+    padding: 20px;
+    float: left;
+    border: 1px solid #ccc;  
+    border-radius: 3px;
 
-    <!-- recent posts
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-    -->
+    transition: background-color 1s;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #eee;
+}
+.apps .app-tile h2 {
+    font-size: 15pt;
+}
+.apps .app-tile .app-title {
+    font-size: 12pt;
+}
+.apps .app-tile .startbtn {
+    display: block;
+    text-decoration: none;
+    background-color: #ccc;
+    color: #888;
+    /*border: 1px solid #999;*/
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    width:80%;
+    bottom: 10px;
+    /*transition: background-color 0.2s;*/
+}
+.apps .app-tile:hover {
+    background-color: white;
+    animation: pulse 2s;
+}
+/*
+.apps .app-tile .startbtn:hover {
+    background-color: white;
+}
+*/
+</style>
+
+<br>
+
+<h1>About</h1>
+<p>This portal hosts a series of projects to support computational neuroscience research.</p>
+
+<div class="apps">
+    <div class="app-tile" onclick="window.location = '/preprocessing'">
+        <h2>Preprocessing</h2>
+        <p class="app-title">Initialize DWI data using dtiInit</p>
+        <!--<a href="#" class="startbtn">Start</a>-->
+    </div>
+    <div class="app-tile" onclick="window.location = '/tracking'">
+        <h2>Tracking</h2>
+        <p class="app-title">Fibre-Tracking using MRtrix</p>
+        <!--<a href="#" class="startbtn">Start</a>-->
+    </div>
+    <div class="app-tile" onclick="window.location = '/life'">
+        <h2>LiFE</h2>
+        <p class="app-title">Measure Tract Model Prediction Error</p>
+        <!--<a href="#" class="startbtn">Start</a>-->
+    </div>
+    <div class="app-tile" onclick="window.location = '/cortex'">
+        <h2>Cortex</h2>
+        <p class="app-title">Process brain MRI image using Freesurfer (Coming Soon)</p>
+        <!--<a href="#" class="startbtn">Start</a>-->
+    </div>
+    <div class="app-tile" onclick="window.location = '/majortracts'">
+        <h2>Major Tracts</h2>
+        <p class="app-title">Identify major tracts segments using AFQ, and LiFE</p>
+        <!--<a href="#" class="startbtn">Start</a>-->
+    </div>
+    <div class="app-tile" onclick="window.location = '/evaluator'">
+        <h2>Connectome Evaluator</h2>
+        <p class="app-title">Provide Quantitative Estimates of Connectome Quality</p>
+        <!--<a href="#" class="startbtn">Start</a>-->
+    </div>
+    <div class="app-tile" onclick="window.location = '/networkneuro'">
+        <h2>Network Neuro</h2>
+        <p class="app-title">Coming Soon ...</p>
+        <!--<a href="#" class="startbtn">Start</a>-->
+    </div>
+    <div class="app-tile" onclick="window.location = '/opendata'">
+        <h2>OpenData</h2>
+        <p class="app-title">Reference Repository for Connectome Data and Derivatives</p>
+    </div>
 </div>
+
+<br clear="both">
+
+
+<!--
+<blockquote>
+A new generation of computational neuroscience tools for big data neuroscience.
+</blockquote>
+-->
+
+<br>
+<br>
+
+<h1>Authors and Contributors</h1>
+<ul>
+    <li>Franco Pestilli (<a href="https://github.com/francopestilli">@francopestilli</a>) Indiana University</li>
+    <li>Soichi Hayashi (<a href="https://github.com/soichih">@soichih</a>) Indiana University</li>
+</ul>
+
+<br>
+
+<!-- recent posts
+<ul class="posts">
+{% for post in site.posts %}
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+    -->
+
