@@ -13,20 +13,21 @@ layout: landing
 
     width: 255px;
     height: 200px;
-    background-color: #eee;
+    background-color: #fff;
     display: inline-block;
     margin: 8px;
     padding: 20px;
     float: left;
-    border: 1px solid #ccc;  
+    /*border: 1px solid #ccc;  */
     border-radius: 3px;
 
     transition: background-color 1s;
     cursor: pointer;
-    box-shadow: 3px 3px 3px #eee;
+    box-shadow: 3px 3px 3px #ddd;
 }
 .apps .app-tile h2 {
-    font-size: 15pt;
+    font-size: 18pt;
+    line-height: 120%;
 }
 .apps .app-tile .app-title {
     font-size: 12pt;
@@ -47,14 +48,21 @@ layout: landing
     /*transition: background-color 0.2s;*/
 }
 .apps .app-tile:hover {
-    background-color: white;
+    color: white;
+    background-color: #2693ff;
     animation: pulse 2s;
+}
+.apps .app-tile:hover h2 {
+    color: white;
 }
 /*
 .apps .app-tile .startbtn:hover {
     background-color: white;
 }
 */
+body {
+    background-color: #eee;
+}
 </style>
 
 <br>
@@ -103,9 +111,7 @@ layout: landing
         <p class="app-title">Reference Repository for Connectome Data and Derivatives</p>
     </div>
 </div>
-
 <br clear="both">
-
 
 <!--
 <blockquote>
