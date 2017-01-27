@@ -1,12 +1,18 @@
 ---
 title: "Tracking"
-subtitle: "Fibre-tracking using MRtrix"
+subtitle: "Produce Predicted Connectomes with Ensemble Tractography"
 layout: app
 starturl: "https://brain-life.org/tracking"
 permalink: /tracking
 ---
 
-This service allows you to submit T1 anatomy as well as your diffusion MRI image and does fibre-tracking using MRtrix. It generates following data products.
+There are many different tractography methods, and each requires the user to set several parameters. A limitation of tractography is that the results depend on the selection of algorithms and parameters. 
+
+This service uses an <b>Ensemble Tractography</b> method. It creates a large set of candidate streamlines using an ensemble of algorithms and parameter values and then selects the streamlines with strong support from the data using a global fascicle evaluation method. 
+
+Compared to single parameter connectomes, <b>Ensemble Tractography</b> connectomes predict diffusion MRI signals better and cover a wider range of white matter volume. 
+
+Currently this service generates following streamlines and data product using [MRtrix](http://www.mrtrix.org).
 
 * Common
   * brain mask (`brainmask.mif`)
@@ -23,4 +29,3 @@ This service allows you to submit T1 anatomy as well as your diffusion MRI image
   * deterministic tracks (`output.SD_STREAM.tck`) 
   * probabilistic tracks (`output.SD_PROB.tck`) 
 
-> [MRtrix](http://www.mrtrix.org) provides a set of tools to perform various advanced diffusion MRI analyses, including constrained spherical deconvolution (CSD), probabilistic tractography, track-density imaging, and apparent fibre density.
