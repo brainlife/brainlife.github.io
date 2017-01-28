@@ -1,6 +1,9 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 2,
+        scrollwheel: false,
+        mapTypeControl: false,
+        mapTypeId: 'terrain',
         center:{lat: 38.5, lng: -110.5} 
     });
 
@@ -22,10 +25,11 @@ function initMap() {
             content += "<p><b>"+member.name+"</b></p>";
         });
         content += "</div>";
+        campus.minfo = new google.maps.InfoWindow({
+            content: content
+        });
         campus.m.addListener('click', function() {
-            new google.maps.InfoWindow({
-                content: content
-            }).open(map, campus.m);
+            campus.minfo.open(map, campus.m);
         });
         */
     }
