@@ -40,12 +40,28 @@ function initMap() {
 for(var uname in campuses) {
     var campus = campuses[uname];
     document.write("<h2>"+uname+"</h2>");
+
+    /*
+    //show people's name and topics
     var block = "";//<blockquote>";
     campus.members.forEach(function(member) {
         block += "<b>"+member.name+"</b> <small>"+member.topic+"</small> ";
     });
+    */
+
+    //show topics (dedupes)
+    var block = "";//<blockquote>";
+    //dedup..
+    var topics = {};
+    campus.members.forEach(function(member) {
+        if(topics[member.topic]) return;
+        topics[member.topic] = true;
+        if(block != "") block += " <span style=\"opacity: 0.3\">|</span> ";
+        block += member.topic;
+    });
     block += "";//</blockquote>";
-    //div.innerHTML = div.innerHTML + content;
+
+
     document.write(block);
 }
 
