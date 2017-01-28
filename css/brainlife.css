@@ -50,6 +50,7 @@ body {
     margin: 0 -9999rem;
     padding: 5rem 9999rem;
     background-color: #155799;
+    color: white;
 }
 .main-content .blueback h1,
 .main-content .blueback h2 {
@@ -59,7 +60,7 @@ body {
 
 .main-content .blueback blockquote {
     color: white;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .main-content .blueback a {
     font-style: italic;

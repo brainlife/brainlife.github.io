@@ -72,12 +72,22 @@ layout: landing
 body {
     background-color: #eee;
 }
+#map {
+    height: 400px;
+    width: 100%;
+}
+#map .markerinfo h2 {
+    color: black;
+}
+#map .markerinfo h3 {
+    margin-top: 5px;
+}
 </style>
 
 <br>
 
 <h1>About</h1>
-<p>This portal hosts a series of projects to support computational neuroscience research.</p>
+<p>Portal for series of online services to support computational neuroscience research.</p>
 
 <div class="apps">
     <div class="app-tile" onclick="window.location = '/preprocessing'">
@@ -137,6 +147,17 @@ A new generation of computational neuroscience tools for big data neuroscience.
 
 <br>
 <br>
+<br>
+
+<div class="blueback">
+    <h1>Collaborators</h1>
+    <div id="map"></div> 
+    <script src="collaborators.js"></script>
+    <script src="map.js"></script>
+</div>
+
+<br>
+<br>
 
 <h1>Authors and Contributors</h1>
 <ul>
@@ -154,3 +175,4 @@ A new generation of computational neuroscience tools for big data neuroscience.
 </ul>
     -->
 
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKr4pJ1KnZtx0b6e0r0cFWfYqpVAFyfXQ&callback=initMap"></script>
