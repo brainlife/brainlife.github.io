@@ -25,11 +25,11 @@ body {
     font-size: 40px; 
 }
 .app-header .app-homebutton {
-    font-size: 35px;
+    font-size: 30px;
     position: absolute;
     top: 15px;
     left: 15px;
-    opacity: 0.5;
+    opacity: 0.4;
     transition: opacity 0.5s;
 }
 .app-header .app-homebutton:hover {

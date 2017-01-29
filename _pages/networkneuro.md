@@ -1,11 +1,12 @@
 ---
 title: "Networkneuro"
-subtitle: "tdb..."
+subtitle: "Create Matrix of brain network with LiFE"
 layout: app
-starturl-dis: "https://brain-life.org/networkneuro"
+starturl: "https://brain-life.org/networkneuro"
 permalink: /networkneuro
 ---
 
-# Coming Soon
+This service generates matrix of brain network using fasicle weights produced by LiFE.
 
-to-be-edited
+To-be-Edited
+
