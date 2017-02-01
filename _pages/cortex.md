@@ -6,9 +6,9 @@ starturl: "https://brain-life.org/cortex"
 permalink: /cortex
 ---
 
-This service allows you to submit T1 anatomy and process it using Freesurfer, which is a software package for the analysis and visualization of structural and functional neuroimaging data from cross-sectional or longitudinal studies.
+This service allows you to submit T1 anatomy and process it using [Freesurfer](https://surfer.nmr.mgh.harvard.edu/), which is a software package for the analysis and visualization of structural and functional neuroimaging data from cross-sectional or longitudinal studies.
 
-Freesurfer does following data processing.
+`Freesurfer` does following data processing.
 
 * Skullstripping
 * Image Registration
@@ -20,5 +20,5 @@ Freesurfer does following data processing.
 * fMRI Analysis
 * Tractography
 
-![Freesurfer](/images/fscortex.png){: .center-image}
+![Freesurfer](/images/fscortex.png)
 
