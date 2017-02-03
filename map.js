@@ -1,3 +1,4 @@
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 2,
@@ -37,9 +38,11 @@ function initMap() {
 
 //show collaborators
 //var div = document.getElementById('collaborators');
+var topics = [];
+var univs = [];
 for(var uname in campuses) {
     var campus = campuses[uname];
-    document.write("<h2>"+uname+"</h2>");
+    //document.write("<h2>"+uname+"</h2>");
 
     /*
     //show people's name and topics
@@ -50,18 +53,29 @@ for(var uname in campuses) {
     */
 
     //show topics (dedupes)
-    var block = "";//<blockquote>";
-    //dedup..
-    var topics = {};
+    //var block = "";
+
+    if(!~univs.indexOf(uname)) univs.push(uname);
     campus.members.forEach(function(member) {
-        if(topics[member.topic]) return;
-        topics[member.topic] = true;
-        if(block != "") block += " <span style=\"opacity: 0.3\">|</span> ";
-        block += member.topic;
+        if(!~topics.indexOf(member.topic)) topics.push(member.topic);
     });
-    block += "";//</blockquote>";
-
-
-    document.write(block);
+    //document.write(block);
 }
+
+document.write("<h2>Partners and Collaborators</h2>");
+var block = "<blockquote>";
+univs.forEach(function(univ) {
+    block+=univ+" <span style='opacity: 0.3'>|</span> ";
+});
+block += "</blockquote>";
+document.write(block);
+
+document.write("<h2>Research Areas and Applications</h2>");
+var block = "<blockquote>";
+topics.forEach(function(topic) {
+    block+=topic+" <span style='opacity: 0.5'>|</span> ";
+});
+block += "</blockquote>";
+document.write(block);
+
 
