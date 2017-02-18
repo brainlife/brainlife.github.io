@@ -6,8 +6,8 @@ starturl: "https://brain-life.org/preprocessing"
 permalink: /preprocessing
 ---
 
-One of the first step for processing your diffusion data often involves with preprocessing your
-data to extract some common parameters such as ...
+One of the first step for processing your diffusion data often involves with extracting some 
+common parameters such as ...
 
 <div style="float: right;">
     <img src="/images/preprocessing/fa.jpg" width="80px;">
@@ -18,13 +18,15 @@ data to extract some common parameters such as ...
 
 * Fractional Anisotrophy (FA)
 * Mean Diffusivity (MD)
-* Principla diffusion direction
+* Principla Diffusion Direction
 * Brain Mask
 * White Matter Mask
 * etc..
 <br clear="both">
 
-One important output from dtiInit is a file called `dt6.mat`. This file contains information used by various other DWI applications; mrDiffusion, FQA, mrTrix, Life, etc..
+vistasoft/dtiInit is a common tool that allows you to extract these information.
+One important output from dtiInit is a file called `dt6.mat`. 
+This file contains information used by various other DWI applications; mrDiffusion, FQA, mrTrix, Life, etc..
 
 dtInit also performs eddy current correction. Strong eddy current is induced when MRI gradients are pulsed on and off rapidly (short TE) which is oftenly the case for diffusion-weighted imaging. Eddy current creates unwanted image artifacts such as shearing, shading, scaling, blurring, and spatial misregistration. dtiInit can try to correct it.
 
