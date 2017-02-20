@@ -26,7 +26,7 @@ common parameters such as ...
 
 vistasoft/dtiInit is a common tool that allows you to extract these information.
 One important output from dtiInit is a file called `dt6.mat`. 
-This file contains information used by various other DWI applications; mrDiffusion, FQA, mrTrix, LiFE, etc..
+This file contains information used by various other DWI applications; mrDiffusion, AFQ, mrTrix, LiFE, etc..
 
 dtInit also performs eddy current correction. [Eddy current](http://mri-q.com/eddy-current-problems.html) is induced when MRI gradients are pulsed on and off rapidly (short TE) which is oftenly the case for DWI. Eddy current creates unwanted image artifacts, and dtiInit can try to correct it.
 
