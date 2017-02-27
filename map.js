@@ -57,12 +57,13 @@ for(var uname in campuses) {
 
     if(!~univs.indexOf(uname)) univs.push(uname);
     campus.members.forEach(function(member) {
-        if(!~topics.indexOf(member.topic)) topics.push(member.topic);
+        var topic = member.topic.replace(/"/g, '')
+        if(!~topics.indexOf(topic)) topics.push(topic);
     });
     //document.write(block);
 }
 
-document.write("<h2>Partners and Collaborators</h2>");
+document.write("<h3>Partners and Collaborators</h3>");
 var block = "<blockquote style='opacity: 1;'>";
 univs.forEach(function(univ) {
     block+=univ+" <span style='opacity: 0.3'>|</span> ";
@@ -70,7 +71,7 @@ univs.forEach(function(univ) {
 block += "</blockquote>";
 document.write(block);
 
-document.write("<h2>Research Areas and Applications</h2>");
+document.write("<h3>Research Areas and Applications</h3>");
 var block = "<blockquote style='opacity: 1;'>";
 topics.forEach(function(topic) {
     block+=topic+" <span style='opacity: 0.5'>|</span> ";
