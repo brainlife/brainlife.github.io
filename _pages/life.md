@@ -10,16 +10,20 @@ Standard tractography can use diffusion measurements from a living brain to gene
 
 `LiFE` predicts the measured diffusion signal using the orientation of the fascicles present in a connectome. LiFE uses the difference between the measured and predicted diffusion signals to measure prediction error. The connectome model prediction error is used to compute two metrics to evaluate the evidence supporting properties of the connectome. 
 
-We generate following metrics:
+We generate the following metrics:
 
 * *The strength of evidence* compares the mean prediction error between alternative hypotheses. 
-* *The earth movers distance* compares full distributions of prediction error. 
+* *The earth mover's distance* compares full distributions of prediction error. 
 
 These metrics can be used for: 
 
 1. Comparing tractography algorithms 
-2. Evaluating the quality of tractography solutions for individual brains or group of brains and 
+2. Evaluating the quality of tractography solutions for individual brains or for a group of brains
 3. Testing hypotheses about white-matter tracts and connections.
 
-
-
+<br>
+<h3>Sample Output</h3>
+<center>
+<img src="/images/screenshots/life.png" class="screenshot">
+</center>
+<br>

@@ -8,11 +8,11 @@ permalink: /networkneuro
 
 Structural network construction loses information at each step. 
 
-![NetworkNeuro](/images/networkneuro1.png)
+<center><img src="/images/networkneuro1.png" width="60%"></center>
 
 To capture all information available, Networkneuro service will evaluate your tractograph against diffusion signal, and fascicles are encoded into the network. 
 
-![NetworkNeuro](/images/networkneuro2.png)
+<center><img src="/images/networkneuro2.png" width="60%"></center>
 
 * Lossless network construction
 * Evaluation of the full edge anatomy
@@ -21,4 +21,9 @@ To capture all information available, Networkneuro service will evaluate your tr
 * Highly distinguishable between subjects and tracking parameters
 * Highly reliable cnnectomes within subjects
 
-
+<br>
+<h3>Sample Output</h3>
+<center>
+<img src="/images/screenshots/networkneuro.png" class="screenshot">
+</center>
+<br>

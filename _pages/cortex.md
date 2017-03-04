@@ -20,5 +20,9 @@ This service allows you to submit T1 anatomy and process it using [Freesurfer](h
 * fMRI Analysis
 * Tractography
 
-![Freesurfer](/images/fscortex.png){:.center-image}
-
+<br>
+<h3>Sample Output</h3>
+<center>
+<img src="/images/screenshots/cortex.png" class="screenshot">
+</center>
+<br>
