@@ -6,7 +6,7 @@ starturl: "https://brain-life.org/cortex"
 permalink: /cortex
 ---
 
-This service allows you to submit T1 anatomy and process it using [Freesurfer](https://surfer.nmr.mgh.harvard.edu/), which is a software package for the analysis and visualization of structural and functional neuroimaging data from cross-sectional or longitudinal studies.
+This service allows you to submit T1 anatomical image and process it using [Freesurfer](https://surfer.nmr.mgh.harvard.edu/), which is a software package for the analysis and visualization of structural and functional neuroimaging data from cross-sectional or longitudinal studies.
 
 `Freesurfer` does following data processing.
 
