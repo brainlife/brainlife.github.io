@@ -1,15 +1,16 @@
 ---
-title: "OpenData"
-subtitle: "Reference repository for connectome data and derivatives"
+title: "O3D"
+subtitle: "Open Diffusion Data and Derivatives"
 layout: app
-permalink: /opendata
+starturl: "https://brain-life.org/o3d"
+permalink: /o3d
 ---
 
 <br>
 
-# What is OpenData
+# What is O3D
 
-OpenData is a <b>reference repository</b> for precision connectome mapping, white matter tracts analysis and algorithmic development.
+<b>Open Diffusion Data and Derivatives (O3D)</b> is a ...
 
 <!-- To date, methods for precision measurement of human brain networks have not been fully developed or agreed upon. This results in a lack of reliability estimates within individuals brains. -->
 
