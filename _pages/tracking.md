@@ -3,6 +3,7 @@ title: "Tracking"
 subtitle: "Produce Predicted Connectomes with Ensemble Tractography"
 layout: app
 starturl: "https://brain-life.org/tracking"
+giturl: "https://github.com/brain-life/app-tracking"
 permalink: /tracking
 ---
 

@@ -4,6 +4,7 @@ subtitle: "Linear Fascicle Evaluation"
 layout: app
 starturl: "https://brain-life.org/life"
 permalink: /life
+giturl: "https://github.com/brain-life/app-life"
 ---
 
 Standard tractography can use diffusion measurements from a living brain to generate a large collection of candidate white-matter fascicles; the connectome. Linear Fascicle Evaluation (`LiFE`) takes any connectome and uses a forward modelling approach to predict diffusion measurements in the same brain. 

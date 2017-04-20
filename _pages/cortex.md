@@ -4,6 +4,7 @@ subtitle: "Process brain MRI image using Freesurfer"
 layout: app
 starturl: "https://brain-life.org/cortex"
 permalink: /cortex
+giturl: "https://github.com/brain-life/app-freesurfer"
 ---
 
 This service allows you to submit T1 anatomical image and process it using [Freesurfer](https://surfer.nmr.mgh.harvard.edu/), which is a software package for the analysis and visualization of structural and functional neuroimaging data from cross-sectional or longitudinal studies.

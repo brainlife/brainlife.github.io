@@ -4,6 +4,7 @@ subtitle: "Initialize DWI data using vistasoft/dtiInit"
 layout: app
 starturl: "https://brain-life.org/preprocessing"
 permalink: /preprocessing
+giturl: "https://github.com/brain-life/app-dtiinit"
 ---
 
 One of the first steps for processing your diffusion data often involves extracting some 

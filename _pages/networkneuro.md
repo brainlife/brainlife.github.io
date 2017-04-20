@@ -4,6 +4,7 @@ subtitle: "Create adjacency matrix of brain connectome with LiFE"
 layout: app
 starturl: "https://brain-life.org/networkneuro"
 permalink: /networkneuro
+giturl: "https://github.com/brain-life/app-networkneuro"
 ---
 
 Structural network construction loses information at each step. 
