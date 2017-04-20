@@ -2,7 +2,7 @@
 title: "O3D"
 subtitle: "Open Diffusion Data and Derivatives"
 layout: app
-starturl: "https://brain-life.org/o3d"
+starturl-dis: "https://brain-life.org/o3d"
 permalink: /o3d
 ---
 
@@ -10,17 +10,57 @@ permalink: /o3d
 
 # What is O3D
 
-<b>Open Diffusion Data and Derivatives (O3D)</b> is a ...
+<b>Open Diffusion Data and Derivatives (O3D)</b> is an online repository of data to support the analysis of brain connectivity.
 
-<!-- To date, methods for precision measurement of human brain networks have not been fully developed or agreed upon. This results in a lack of reliability estimates within individuals brains. -->
+<div style="margin-top: 50px;">
+	<div style="float: left; width: 45%;">
+		<a href="https://brain-life.org/warehouse/#/datasets/58ef90c87446bb0021cd26d4" class="btn btn-gray">
+			<center>
+			<h3>O3D Repository</h3>
+			<img src="images/o3drepo.png" style="width: 80%; box-shadow: 2px 2px 4px #666;">
+			</center>
+		</a>
 
-We present a rich dataset composed of <b>dMRI</b> and <b>derivatives</b> generated with multiple tractography algorithms across ranges of parameters and multiple repeats of brains obtained from healthy, cognitively normal human individuals. 
+		<p>
+		You can download a rich dataset composed of <b>dMRI</b> obtained from healthy, cognitively normal human individuals and <b>derivatives</b> in a BIDS-standard data structure for further analysis.
+		</p>
 
-The tractography results are evaluated using state-of-the-art methods and standard methods used to segment the major human white matter tracts. Additionally, a series of connection matrices will be generated using standard cortical segmentation methods.  The full dataset comprises a few initial data files (12 brains from three different data sets with different properties of signal-to-noise ratio and resolution) and a large set of Derivatives comprising 1,440 tractograms, associated major tracts segmentations and connectomes. 
+		<!--
+		<p>
+		The tractography results are evaluated using state-of-the-art methods and standard methods used to segment the major human white matter tracts. Additionally, a series of connection matrices will be generated using standard cortical segmentation methods.
+		</p>
 
-These results comprising of just under 10 Terabytes of compressed data account for about 3 months of compute time on the most modern high-performance compute systems. The data is organized using the <b>BIDS</b> (Brain Imaging Data Structure) standard with Open Data Common Attribution License.
+		<p>
+		The full dataset comprises a few initial data files (12 brains from three different data sets with different properties of signal-to-noise ratio and resolution) and a large set of Derivatives comprising 1,440 tractograms, associated major tracts segmentations and connectomes. 
+		</p>
 
-<br><br><br>
+		<p>
+		These results comprising of just under 10 Terabytes of compressed data account for about 3 months of compute time on the most modern high-performance compute systems. You can download data organized in <b>BIDS</b> (Brain Imaging Data Structure) standard with Open Data Common Attribution License.
+		</p>
+		-->
+	</div>
+	<div style="float: right; width: 45%;">
+		<a href="https://brain-life.org/o3d" class="btn btn-gray">
+			<center>
+			<h3>O3D Pipeline</h3>
+			<img src="images/o3dflow.png" style="width: 80%; box-shadow: 2px 2px 4px #666;">
+			</center>
+		</a>
+	
+		<p>
+		You can reproduce, or generate your own O3D data derivatives through O3D online pipeline by uploading your data to our online workflow submission system.
+		</p>
+		
+		<!--
+		<p>
+		You need T1-anatomy and DWI data (.nii.gz/bvecs/bvals) to submit the pipeline workflow, and the processing will take about 24-36 hours.
+		</p>
+		-->
+
+	</div>
+</div>
+<br clear="both">
+<br>
 
 # Who should use it?
 

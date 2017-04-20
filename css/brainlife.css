@@ -5,15 +5,15 @@ body {
     font-weight: bold;
 }
 .btn-gray {
-    color: #155799;
-    background-color: rgba(20, 100, 200, 0.08);
-    border-color: rgba(0, 0, 0, 0.2);
+    color: #666;
+    background-color: rgba(0, 0, 0, 0.08);
+    /*border-color: rgba(0, 0, 0, 0.2);*/
 }
       
 .btn-gray:hover {
-    color: black;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-color: rgba(0, 0, 0, 0.3); 
+    /*background-color: #2693ff;*/
+    background-color: rgba(0,0,0,0.2);
+    /*border-color: rgba(0, 0, 0, 0.3); */
 }
 .page-header {
     /*box-shadow: 0 0 200px rgba(0,0,0,0.3) inset;*/
