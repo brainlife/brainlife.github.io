@@ -7,7 +7,7 @@ permalink: /majortracts
 giturl: "https://github.com/brain-life/app-tractclassification"
 ---
 
-Automated access to [Compute clouds](https://jetstream-cloud.org) that uses the Linear Fascicle Evaluation method [LiFE](http://francopestilli.github.io/life/) and [AFQ](https://web.stanford.edu/group/vista/cgi-bin/wiki/index.php/AFQ) to idenfity the major tracts known tracts of the human white matter.
+Automated access to [Compute clouds](https://jetstream-cloud.org) to use the Linear Fascicle Evaluation method [LiFE](http://francopestilli.github.io/life/) and [AFQ](https://web.stanford.edu/group/vista/cgi-bin/wiki/index.php/AFQ) and idenfity the major tracts of the human white matter.
 
 <br>
 <h3>Sample Output</h3>
