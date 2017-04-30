@@ -9,10 +9,18 @@ giturl: "https://github.com/brain-life/app-dtiinit"
 
 Automated access to [Compute clouds](https://jetstream-cloud.org) to process your diffusion data. This service will preprocess your uploaded data and generate a series of derivatives:
 
-* Fractional Anisotropy <img src="/images/preprocessing/fa.jpg" width="80px;">
-* Mean Diffusivity <img src="/images/preprocessing/md.jpg" width="80px;">
-* Principal Diffusion Direction (<img src="/images/preprocessing/vector.jpg" width="80px">)
-<br clear="both">
+<br>
+Fractional Anisotropy <img src="/images/preprocessing/fa.jpg" width="80px;">
+<left>
+<br>
+
+<br> Mean Diffusivity <img src="/images/preprocessing/md.jpg" width="80px;"> 
+<center>
+<br>
+
+<br> Principal Diffusion Direction <img src="/images/preprocessing/vector.jpg" width="80px"> 
+<right>
+<br>
 
 Please see [here](https://github.com/vistalab/vistasoft/wiki/DWI-Files) for other additional detials about the methods used for preprocessing your data.
 
