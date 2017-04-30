@@ -63,7 +63,7 @@ for(var uname in campuses) {
     //document.write(block);
 }
 
-document.write("<h3>Partners and Collaborators</h3>");
+document.write("<h3>Partners and collaborators.</h3>");
 var block = "<blockquote style='opacity: 1;'>";
 univs.forEach(function(univ) {
     block+=univ+" <span style='opacity: 0.3'>|</span> ";
@@ -71,7 +71,7 @@ univs.forEach(function(univ) {
 block += "</blockquote>";
 document.write(block);
 
-document.write("<h3>Research Areas and Applications</h3>");
+document.write("<h3>Research areas and application.</h3>");
 var block = "<blockquote style='opacity: 1;'>";
 topics.forEach(function(topic) {
     block+=topic+" <span style='opacity: 0.5'>|</span> ";

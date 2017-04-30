@@ -77,19 +77,19 @@ var campuses =
         "members": [
             {
                 "name": "Soichi Hayashi",
-                "topic": "Research Technologies/Scientific Community Tools"
+                "topic": "Scientific community tools"
             },
             {
                 "name": "Craig A. Stewart",
-                "topic": "Research Technologies/Information Technology"
+                "topic": "Information technology"
             },
             {
                 "name": "Olaf Sporns",
-                "topic": "Neuroscience/Connectomics"
+                "topic": "Network neuroscience"
             },
             {
                 "name": "Sharlene Newman",
-                "topic": "Psychology/Neuroscience/Cognitive Science/Imaging Research"
+                "topic": "Cognitive neuroscience of language"
             },
             {
                 "name": "Amanda Mejia",
@@ -97,39 +97,39 @@ var campuses =
             },
             {
                 "name": "Anne Krendl",
-                "topic": "Aging & Cognition Research"
+                "topic": "Aging & social cognition research"
             },
             {
                 "name": "Karin H. James",
-                "topic": "Psychology/Neuroscience/Cognitive Science"
+                "topic": "Brain development"
             },
             {
                 "name": "Sophia  Vinci-Booher",
-                "topic": "Psychological and Brain Sciences"
+                "topic": "Psychological and brain sciences"
             },
             {
                 "name": "Bradley Alexander Caron",
-                "topic": "\"Psychological and Brain Sciences  Optometry\""
+                "topic": "\"Vision science and sports concussion research\""
             },
             {
                 "name": "Yisu Peng",
-                "topic": "Informatics and Computing"
+                "topic": "Informatics and computing"
             },
             {
                 "name": "Lei Le",
-                "topic": "Informatics and Computing"
+                "topic": "Informatics and computing"
             },
             {
                 "name": "Shiloh Cooper",
-                "topic": "Psychological and Brain Sciences"
+                "topic": "Psychological and brain sciences"
             },
             {
                 "name": "Brittany S.  Cassidy",
-                "topic": "Psychological and Brain Sciences"
+                "topic": "Psychological and brain sciences"
             },
             {
                 "name": "Cesar F. Caiafa",
-                "topic": "Psychological and Brain Sciences "
+                "topic": "Electrical engineering"
             },
             {
                 "name": "Nicholas Port",
@@ -137,11 +137,11 @@ var campuses =
             },
             {
                 "name": "Martha White",
-                "topic": "Informatics and Computing"
+                "topic": "Computer science"
             },
             {
                 "name": "Brian F. O'Donnell",
-                "topic": "\"Clinical Science  Neuroscience  Cognitive Science\""
+                "topic": "\"Clinical neuroscience\""
             }
         ]
     },
@@ -152,7 +152,7 @@ var campuses =
         "members": [
             {
                 "name": "Li Shen",
-                "topic": "Neuroimaging and Radiology"
+                "topic": "Neuroimaging and radiology"
             }
         ]
     },
@@ -163,7 +163,7 @@ var campuses =
         "members": [
             {
                 "name": "Andrew J. Saykin",
-                "topic": "Radiology and Imaging Sciences"
+                "topic": "Alzheimer disease and aging research"
             }
         ]
     },
@@ -174,7 +174,7 @@ var campuses =
         "members": [
             {
                 "name": "Joshua Faskowitz",
-                "topic": "Cognitive Neuroscience"
+                "topic": "Network neuroscience"
             }
         ]
     },
@@ -185,7 +185,7 @@ var campuses =
         "members": [
             {
                 "name": "Alessandro Gozzi",
-                "topic": "Rodent models of autism"
+                "topic": "Rodent models"
             }
         ]
     },
@@ -196,7 +196,7 @@ var campuses =
         "members": [
             {
                 "name": "Justin Solomon",
-                "topic": "Electrical Engineering/Computer Science"
+                "topic": "Computer Science"
             }
         ]
     },
@@ -207,7 +207,7 @@ var campuses =
         "members": [
             {
                 "name": "Hiromasa Takemura",
-                "topic": "Information and Neural Networks"
+                "topic": "Computational neuroanatomy"
             }
         ]
     },
@@ -218,7 +218,7 @@ var campuses =
         "members": [
             {
                 "name": "Thorsten Kahnt",
-                "topic": "Neurology"
+                "topic": "Decision making and Neuroeconomics"
             }
         ]
     },
@@ -229,23 +229,23 @@ var campuses =
         "members": [
             {
                 "name": "Brian Knutson",
-                "topic": "Psychology"
+                "topic": "Decision making and Neuroeconomics"
             },
             {
                 "name": "Josiah Leong",
-                "topic": "Psychology"
+                "topic": "Decision making and Neuroeconomics"
             },
             {
                 "name": "Maheen Mausoof Adamson",
-                "topic": "Neurosurgery/Psychiatry and Behavioral Sciences"
+                "topic": "Traumatic brain imaging"
             },
             {
                 "name": "Jesse Gomez",
-                "topic": "Neurosciences"
+                "topic": "Visual brain development"
             },
             {
                 "name": "Kalanit Grill-Spector",
-                "topic": "Psychology and Neuroscience"
+                "topic": "Visual neuroscience and development"
             }
         ]
     },
@@ -271,11 +271,11 @@ var campuses =
         "members": [
             {
                 "name": "Ilaria Sani",
-                "topic": "Neural Systems"
+                "topic": "Systems neuroscience"
             },
             {
                 "name": "Winrich Freiwald",
-                "topic": "Neural Systems"
+                "topic": "Systems neuroscience"
             }
         ]
     },
@@ -312,7 +312,7 @@ var campuses =
         "members": [
             {
                 "name": "Ivo D. Dinov",
-                "topic": "Statistics; Nursing"
+                "topic": "Big data and statistics"
             }
         ]
     },
@@ -323,7 +323,7 @@ var campuses =
         "members": [
             {
                 "name": "Holly Bridge",
-                "topic": "Clinical Neurosciences/Functional MRI of the Brain"
+                "topic": "Clinical visual neurosciences"
             }
         ]
     }
