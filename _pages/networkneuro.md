@@ -7,7 +7,7 @@ permalink: /networkneuro
 giturl: "https://github.com/brain-life/app-networkneuro"
 ---
 
-Automated access to [Compute clouds](https://jetstream-cloud.org) to use the Liner Fascicle Evaluation method [LiFE](http://francopestilli.github.io/life/) and build large-scale brain networks. The service allows to
+Automated access to [Compute clouds](https://jetstream-cloud.org) to build large-scale brain networks using the Linear Fascicle Evaluation method [LiFE](http://francopestilli.github.io/life/). This service allows to:
 
 * Build brain network matrices
 * Extract anatomical and brain tissue properties connectome edges
