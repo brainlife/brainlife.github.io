@@ -1,10 +1,52 @@
 <section class="page-header">
-  <h1 class="project-name animated zoomIn">{{ site.title }}</h1>
-  <h2 class="project-tagline">{{ site.tagline }}</h2>
-  <a href="https://github.com/brain-life" class="btn">
-    <!--<img src="images/github-logo.svg" width="18px" style="top: 2px; position: relative; margin-right: 10px;">-->
-    View on GitHub
-  </a>
-  <!--<a href="/evaluator" class="btn">Connectome Evaluator</a>-->
-  <!--<a href="#" class="btn">Download .tar.gz</a>-->
+
+<style>
+.page-header {
+height: 400px;
+}
+@keyframes cloud_floating {
+0% { left: -105%; }
+100% { left: 105%; }
+}
+svg.cloud {
+position: absolute;
+z-index: 10;
+}
+svg.cloud-big {
+top: 40px;
+opacity: 0.2;
+animation: cloud_floating 40s linear infinite;
+animation-delay: -25s;
+}
+svg.cloud-small {
+top: 80px;
+opacity: 0.4;
+animation: cloud_floating 30s linear infinite;
+animation-delay: -17s;
+}
+</style>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="762px"
+height="300px" viewBox="0 0 762 300" xml:space="preserve" class="cloud cloud-big">
+<path fill="#FFFFFF" d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
+c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
+C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5
+S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"/>
+</svg>
+
+<svg class="cloud cloud-small" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" width="512" height="300" viewBox="0 0 512 300" xml:space="preserve">
+<path fill="#FFFFFF" d="M406.1 227.63c-8.23-103.65-144.71-137.8-200.49-49.05 -36.18-20.46-82.33 3.61-85.22 45.9C80.73 229.34 50 263.12 50 304.1c0 44.32 35.93 80.25 80.25 80.25h251.51c44.32 0 80.25-35.93 80.25-80.25C462 268.28 438.52 237.94 406.1 227.63z"/>
+</svg>
+
+<div style="z-index: 200; position: absolute;">
+	<h1 class="project-name animated zoomIn">{{ site.title }}</h1>
+	<h2 class="project-tagline">{{ site.tagline }}</h2>
+	<a href="https://github.com/brain-life" class="btn">
+	<!--<img src="images/github-logo.svg" width="18px" style="top: 2px; position: relative; margin-right: 10px;">-->
+	View on GitHub
+	</a>
+	<!--<a href="/evaluator" class="btn">Connectome Evaluator</a>-->
+	<!--<a href="#" class="btn">Download .tar.gz</a>-->
+</div>
+ 
 </section>
