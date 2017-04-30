@@ -1,36 +1,26 @@
 ---
-title: "Tracking"
-subtitle: "Produce Predicted Connectomes with Ensemble Tractography"
+title: "Ensemble tractography"
+subtitle: "Generate brain connectomes using a combination fiber tracking method."
 layout: app
 starturl: "https://brain-life.org/tracking"
 giturl: "https://github.com/brain-life/app-tracking"
 permalink: /tracking
 ---
 
-There are many different tractography methods, and each requires the user to select algorithms and to set several parameters. A limitation of tractography is that the results depend on the selection of algorithms and parameters. 
+Automated access to [Compute clouds](https://jetstream-cloud.org) to process diffusion data using multiple tractography methods. This service combines multiple tractography methods by implementing [Ensemble Tractography](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004692). It creates a large set of candidate streamlines using an ensemble of algorithms and parameter values and then selects the streamlines with strong support from the data using a global fascicle evaluation method.  *Ensemble Tractography* connectomes predict diffusion MRI signals better and cover a wider range of white matter volume then single algorithm and single parameter connectomes. The *Ensemble Tractography* service tracks using [MRtrix](http://www.mrtrix.org).
 
-This service uses an *Ensemble Tractography* method. It creates a large set of candidate streamlines using an ensemble of algorithms and parameter values and then selects the streamlines with strong support from the data using a global fascicle evaluation method. 
+* Brain tissue segmentation.
+  * Whole brain extraction (`brainmask.mif`)
+  * White matter volume identification (`wm.mif`) 
 
-*Ensemble Tractography* connectomes predict diffusion MRI signals better and cover a wider range of white matter volume then single algorithm and single parameter connectomes.
+* White matter microstructure tissue properties.
+  * Diffusion tensor parameters (`dt.mif`, `fa.mif`) 
+  * Constrained spherical deconvolution estimates (`sf.mif`, `response.txt`, `lmax.mif`)
 
-Currently, the *Ensemble Tractography* service generates the following streamlines and data products using [MRtrix](http://www.mrtrix.org).
-
-* Common
-  * brain mask (`brainmask.mif`)
-  * white matter mask (`wm.mif`) 
-
-* Diffusion Tensor Fiber-Tracking
-  * tensor fitting (`dt.mif`)
-  * tensor to FA (`fa.mif`) 
-  * response function estimate (`sf.mif`, `response.txt`)
-  * DT_STREAM (`output.DT_STREAM.tck`)
-
-* Deterministic/Probabilistic Fiber-Tracking
-  * CSD/FOD (`lmax.mif`)
-  * deterministic tracks (`output.SD_STREAM.tck`) 
-  * probabilistic tracks (`output.SD_PROB.tck`) 
-
-More algorithms will be added soon.
+* Fiber tracking.
+  * Deterministic (`output.SD_STREAM.tck`) 
+  * Probabilistic (`output.SD_PROB.tck`) 
+  * Tensor (`output.DT_STREAM.tck`)
 
 <br>
 <h3>Sample Output</h3>
