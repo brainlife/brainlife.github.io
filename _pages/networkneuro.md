@@ -1,26 +1,16 @@
 ---
-title: "Networkneuro"
-subtitle: "Create adjacency matrix of brain connectome with LiFE"
+title: "Network Neuroscience"
+subtitle: "Automated brain networks generation"
 layout: app
 starturl: "https://brain-life.org/networkneuro"
 permalink: /networkneuro
 giturl: "https://github.com/brain-life/app-networkneuro"
 ---
 
-Structural network construction loses information at each step. 
+Automated access to [Compute clouds](https://jetstream-cloud.org) to use the Liner Fascicle Evaluation method [LiFE](http://francopestilli.github.io/life/) and build large-scale brain networks. The service allows to
 
-<center><img src="/images/networkneuro1.png" width="60%"></center>
-
-To capture all the information available, the Networkneuro service will validate your tractographs with the diffusion signal and encode generated fascicles into the network. This creates networks that are `lossless`, in that the diffusion signal and anatomy information are preserved.
-
-<center><img src="/images/networkneuro2.png" width="60%"></center>
-
-* Lossless network construction
-* Evaluation of the full edge anatomy
-* Preserved anatomy reconstruction of edges
-* Possible post-hoc analyses of edge traits augmenting tradition network analysies
-* Highly distinguishable between subjects and tracking parameters
-* Highly reliable connectomes within subjects
+* Build brain network matrices
+* Extract anatomical and brain tissue properties connectome edges
 
 <br>
 <h3>Sample Output</h3>
