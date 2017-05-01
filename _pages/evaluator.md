@@ -9,12 +9,7 @@ permalink: /evaluator
 <img src="images/brainmodel_b.png" width="200px;">
 <img src="images/tracts.png" width="200px">
 
-Brain tractography uses diffusion-weighted MRI measurements from living humans to generate large collections of white-matter fascicles; the <strong>Connectomes</strong>. <strong>Connectomes</strong> mapped in individual brains can be used to study the properties of the human brain connections as well as those of the white matter tissue. These properties can be used to chart variability across individuals for multiple biological processes, such as development, aging as well as disease progression.
-
-To date, several tractography methods and diffusion data types exist and often times investigators have <em>no principled ways</em> to choose among the many options.
-
-We provide a few quantitative estimates of <strong>Connectomes</strong> quality, given a sample data set provided by an investigator. This service takes as input <code>Diffusion-weighted MRI data (DWI)</code> and <code>T1-weighted anatomical data</code> and returns as output a full brain <strong>Connectomes</strong> mapped with modern tractography methods. 
+Automated access to [Compute clouds](https://jetstream-cloud.org) to use the Linear Fascicle Evaluation method [LiFE](http://francopestilli.github.io/life/) to provide quantitative estimates of <strong>Connectomes</strong> quality, given a data set uploaded by the investigator. This service takes as input <code>Diffusion-weighted MRI data (dMRI)</code> and <code>T1-weighted anatomical data</code> and returns as output a full brain <strong>Connectomes</strong> mapped with modern tractography methods. We also provide a quantitative comparison to reference datasets to inform the investigator about quality of the expected results that can be achived with the uploaded data. We compare the results to those obtained on a few sample subjects from the <strong>Human Connectomes Project</strong>, Stanford University data.
 
 <img src="images/comparison.png">
 
-We also provide a few quantitative measures to inform the investigator the quality of the expected results that can be achived with such data. We compare the results to those optained with a few sample subjects from the human <strong>Connectomes</strong> data, the Stanford data set.
