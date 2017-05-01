@@ -71,7 +71,7 @@ univs.forEach(function(univ) {
 block += "</blockquote>";
 document.write(block);
 
-document.write("<h3>Research areas and application.</h3>");
+document.write("<h3>Research areas and applications.</h3>");
 var block = "<blockquote style='opacity: 1;'>";
 topics.forEach(function(topic) {
     block+=topic+" <span style='opacity: 0.5'>|</span> ";
