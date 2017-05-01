@@ -46,6 +46,7 @@ layout: landing
     position: absolute;
     width:80%;
     bottom: 10px;
+    /*transition: background-color 0.2s;*/
 }
 .apps .app-tile:hover {
     color: white;
@@ -62,13 +63,18 @@ layout: landing
     font-size: 50px;
     opacity: 0.2;
 }
+/*
+.apps .app-tile .startbtn:hover {
+    background-color: white;
+}
+*/
 body {
     background-color: #eee;
 }
 #map {
     height: 400px;
     width: 100%;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px #6292c1;
 }
 #map .markerinfo h2 {
     color: black;
@@ -85,20 +91,18 @@ body {
 
 <br>
 
-<p>We are devoloping an open, online platform to provide a seamless access to cloud computing infrastructure and data and <b>data derivatives</b>. 
-   This database will reach out beyond neuroscience and allowing computer scientists, mathematical scientists and engineers interested in using the data to develop and publish their methods.
+<p>We are developing an open, online platform to provide a seamless access to cloud computing infrastructure and brain data and <b>data derivatives</b>. 
+   This platform is meant to reach out beyond neuroscience, allowing also computer scientists, statisticians and engineers interested in brain data to use the data to develop and publish their methods.
 </p>
     
-<p>
-Neuroscience is engaging at the forefront of science by dissolving disciplinary boundaries and promoting transdisciplinary research. 
-This is a process that, in principle, can facilitate discovery by convergent efforts from theoretical, experimental and cognitive neuroscience, as well as computer science and engineering. 
+<p>Neuroscience is engaging at the forefront of science by dissolving disciplinary boundaries and promoting transdisciplinary research. 
+This process can, in principle, facilitate discovery by convergent efforts from theoretical, experimental and cognitive neuroscience, as well as computer science and engineering. 
 
-To assure the success of this process, the current lack of established mechanisms to guarantee reproducibility of scientific results must be overcome. 
-Promoting open software and data sharing has become paramount to addressing this problem of reproducibility. 
+    To assure the success of this process, the current lack of established mechanisms to promote open sharing data, software and scientific results must be overcome. 
+Promoting open software and data sharing has become paramount to addressing the problem of scientific reproducibility. 
    
-<b>Brain Life</b> addresses challenges to neuroscience reproducibility by providing integrative mechanisms for publishing data, and algorithms while embedding them with computing resources that can impact multiple scientific communities. 
-<b>Brain Life</b> is a project under active development. We currently offer the following cloud computing services – also called <b><a href="https://github.com/soichih/abcd-spec">Brain Life Applications</a></b> 
-</p>
+    Brain Life addresses challenges to neuroscience open sharing and reproducibility by providing integrative mechanisms for publishing data, and algorithms while embedding them with computing resources to impact multiple scientific communities. 
+Brain Life is a project under active development. We currently offer several cloud computing services – also called <b><a href="https://github.com/soichih/abcd-spec">Brain Life Applications</a></b> </p>.
 
 <br>
 
@@ -153,14 +157,14 @@ Promoting open software and data sharing has become paramount to addressing this
 <br clear="both">
 
 <br>
-<p>Additional applications currently being developed. Your application can be submitted for publication on <b>Brain Life</b> by following the
+<p>Additional applications currently being developed. Your application can be submitted for publication on <b><a href="brain-life.org">Brain Life</a></b> by following the
     <b><a href="https://github.com/soichih/abcd-spec">Brain Life Application Specification</a></b> and emailing the team at <a href="mailto:brlife@iu.edu">brlife@iu.edu</a></p>
 <br>
 <br>
 
 <div class="colorback grayback">
     <img src="images/group-of-people-in-a-formation.svg" style="width: 15%;" align="right">
-    <h1>Who can use <b>Brain Life?</b></h1>
+    <h1>Who can use Brain Life?</h1>
     <br clear="both">
 
     <h3>Psychologists and neroscientists.</h3>
@@ -175,33 +179,21 @@ Promoting open software and data sharing has become paramount to addressing this
 
 </div>
 
+<!--
+<blockquote>
+A new generation of computational neuroscience tools for big data neuroscience.
+</blockquote>
+-->
+
 <div class="colorback blueback">
     <h1>An open, collaborative cloud computing platform.</h1>
     <p>
-    <b>66 collaborators from global scientific communities</b> 
+    <b>Sixty six collaborators from global scientific communities</b> 
     contribute to the project by providing data, applications, technology and products to advance understanding the human brain.
     </p>
     <div id="map"></div> 
     <script src="collaborators.js"></script>
-    <h3>Partners and collaborators.</h3>
-    <script>
-	var block = "<blockquote style='opacity: 1;'>";
-	univs.forEach(function(univ) {
-	    block+=univ+" <span style='opacity: 0.3'>|</span> ";
-	});
-	block += "</blockquote>";
-	document.write(block);
-    </script>
-
-    <h3>Research areas and applications.</h3>
-    <script>
-	var block = "<blockquote style='opacity: 1;'>";
-	topics.forEach(function(topic) {
-	    block+=topic+" <span style='opacity: 0.5'>|</span> ";
-	});
-	block += "</blockquote>";
-	document.write(block);
-    </script>
+    <script src="map.js"></script>
 </div>
 
 <br>
@@ -237,39 +229,5 @@ Promoting open software and data sharing has become paramount to addressing this
 {% endfor %}
 </ul>
     -->
-
-<script>
-function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-	zoom: 2,
-	scrollwheel: false,
-	mapTypeControl: false,
-	mapTypeId: 'hybrid',
-	center:{lat: 38.5, lng: -110.5} 
-    });
-
-    for(var uname in campuses) {
-	var campus = campuses[uname];
-
-	//create university marker
-	campus.m = new google.maps.Marker({
-	    position: {lat: campus.lat, lng: campus.lng},
-	    map: map
-	});
-    }
-}
-
-//show collaborators
-var univs = [];
-var topics = [];
-for(var uname in campuses) {
-    var campus = campuses[uname];
-    if(!~univs.indexOf(uname)) univs.push(uname);
-    campus.members.forEach(function(member) {
-	var topic = member.topic.replace(/"/g, '')
-	if(!~topics.indexOf(topic)) topics.push(topic);
-    });
-}
-</script>
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKr4pJ1KnZtx0b6e0r0cFWfYqpVAFyfXQ&callback=initMap"></script>
