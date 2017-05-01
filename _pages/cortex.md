@@ -1,6 +1,6 @@
 ---
 title: "Cortex"
-subtitle: "Process brain MRI image using Freesurfer"
+subtitle: "Process brain images using FreeSurfer"
 layout: app
 starturl: "https://brain-life.org/cortex"
 permalink: /cortex
