@@ -46,6 +46,10 @@ padding: 1rem 2rem;
     margin-right: auto;
 }
 
+.main-content {
+padding-bottom: 0px;
+}
+
 .main-content .columns3 {
     column-count: 3;
 }
@@ -68,9 +72,10 @@ padding: 1rem 2rem;
     opacity: 0.7;
 }
 
-.main-content .blueback blockquote {
+.main-content .colorback blockquote {
     color: white;
     opacity: 0.8;
+    border-color: rgba(255,255,255,0.3);
 }
 .main-content .blueback a {
     font-style: italic;
@@ -84,7 +89,7 @@ padding: 1rem 2rem;
 .contact {
     float: left;
     max-width: 25%;
-    margin: 20px;
+    margin-right: 20px;
 }
 .contact img {
     border-radius: 3px;
@@ -92,4 +97,14 @@ padding: 1rem 2rem;
 .screenshot {
     box-shadow: 0 0 25px rgba(0,0,0,0.3);
     border-radius: 5px;
+}
+footer.site-footer {
+    margin: 0 -9999rem;
+    padding: 2rem 9999rem;
+    background-color: #333;
+    color: white;
+}
+footer.site-footer a {
+    color: white;
+
 }
