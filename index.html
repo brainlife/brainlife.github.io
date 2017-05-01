@@ -182,7 +182,21 @@ Promoting open software and data sharing has become paramount to addressing this
     contribute to the project by providing data, applications, technology and products to advance understanding the human brain.
     </p>
     <div id="map"></div> 
+
     <script src="collaborators.js"></script>
+    <script>
+	var univs = [];
+	var topics = [];
+	for(var uname in campuses) {
+	    var campus = campuses[uname];
+	    if(!~univs.indexOf(uname)) univs.push(uname);
+	    campus.members.forEach(function(member) {
+		var topic = member.topic.replace(/"/g, '')
+		if(!~topics.indexOf(topic)) topics.push(topic);
+	    });
+	}
+    </script>
+
     <h3>Partners and collaborators.</h3>
     <script>
 	var block = "<blockquote style='opacity: 1;'>";
@@ -259,17 +273,6 @@ function initMap() {
     }
 }
 
-//show collaborators
-var univs = [];
-var topics = [];
-for(var uname in campuses) {
-    var campus = campuses[uname];
-    if(!~univs.indexOf(uname)) univs.push(uname);
-    campus.members.forEach(function(member) {
-	var topic = member.topic.replace(/"/g, '')
-	if(!~topics.indexOf(topic)) topics.push(topic);
-    });
-}
 </script>
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKr4pJ1KnZtx0b6e0r0cFWfYqpVAFyfXQ&callback=initMap"></script>
