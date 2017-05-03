@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
 {% include head.html %}
-<head>
-	<style>
-	a.homebutton {
-	position: absolute;
-	top: -33px;
-	left: -80px;
-	color: white;
-	height: 100px;
-	width: 200px;
-	transform: rotate(-45deg);
-	background-color: #2693ff;
-	text-decoration: none;
-	box-shadow: 0px 3px 6px rgba(0,0,0,0.4);
-	transition: all 0.3s ease, left 0.3s ease;
-	opacity: 0.8;
-	border: 1px dashed #ccf;
-	}
-	a.homebutton .title {
-	padding-top: 63px;
-	font-weight: 700;
-	}
-	a.homebutton:hover {
-	top: -23px;
-	left: -70px;
-	opacity: 1;
-	}
-	</style>
-</head>
-
 <body>
 	{% if page.giturl %}
 	<a href="{{page.giturl}}">
@@ -38,11 +9,14 @@
 	{% endif %}
 
 	<section class="page-header app-header">
-		<a class="homebutton" href="/"><div class="title">Brain-Life</div></a>
 		<!--
-		<i class="fa fa-home app-homebutton" onclick="document.location = '/';"></i>
+		<svg class="title-cloud" x="0" y="0" width="200" height="100" viewBox="0 0 1000 300" xml:space="preserve">
+			<path fill="#fff" d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106 c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529 C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5 S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"/>
+		</svg>
+		<div class="title" style="color: #2693ff" onclick="document.location='/'">
+		Brain Life
+		</div>
 		-->
-
 		<h1 style="opacity: 0.8;">{{ page.title }}</h1>
 		{% if page.subtitle %} 
 			<h2>{{page.subtitle}}</h2>

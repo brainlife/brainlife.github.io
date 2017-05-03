@@ -1,5 +1,5 @@
 ---
-title: "Cortex"
+title: "Brain Tissue Extraction"
 subtitle: "Process brain images using FreeSurfer"
 layout: app
 starturl: "https://brain-life.org/cortex"
