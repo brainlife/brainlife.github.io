@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden; /*for testimony padding*/
+    font-family: 'Raleway', sans-serif;
 }
 .btn {
     font-weight: bold;

@@ -70,6 +70,7 @@ a {
   margin-top: 0;
   margin-bottom: 0.1rem; 
   font-size: 3.25rem;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
   /* @media screen and (min-width: 64em) {
     .project-name {
