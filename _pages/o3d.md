@@ -62,7 +62,7 @@ permalink: /o3d
 <br clear="both">
 <br>
 
-# Who should use it?
+# Who can use it?
 
 <br>
 
