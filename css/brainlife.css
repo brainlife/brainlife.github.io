@@ -93,10 +93,14 @@ padding-bottom: 0px;
     float: left;
     max-width: 25%;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 .contact img {
     border-radius: 3px;
     filter: grayscale(100%);
+}
+.contact a {
+    font-weight: 700;
 }
 .screenshot {
     box-shadow: 0 0 25px rgba(0,0,0,0.3);
