@@ -1,5 +1,5 @@
 ---
-title: "Linear Fascicle Evaluation"
+title: "Linear Fascicle Evaluation (LiFE)"
 subtitle: "Evaluation and statistical inference"
 layout: app
 starturl: "https://brain-life.org/life"
