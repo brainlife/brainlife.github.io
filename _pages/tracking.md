@@ -1,5 +1,5 @@
 ---
-title: "Ensemble tractography"
+title: "Tracking"
 subtitle: "Generate brain connectomes using a combination fiber tracking method."
 layout: app
 starturl: "https://brain-life.org/tracking"
