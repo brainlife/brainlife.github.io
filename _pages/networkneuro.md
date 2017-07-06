@@ -1,5 +1,5 @@
 ---
-title: "Network Neuroscience"
+title: "Brain Network"
 subtitle: "Automated brain networks generation"
 layout: app
 starturl: "https://brain-life.org/networkneuro"
