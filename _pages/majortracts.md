@@ -1,6 +1,6 @@
 ---
-title: "White matter tracts segmentation"
-subtitle: "Identify major human white matter tracts."
+title: "White Matter Tracts"
+subtitle: "Segments major human white matter tracts"
 layout: app
 starturl: "https://brain-life.org/majortracts"
 permalink: /majortracts
