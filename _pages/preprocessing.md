@@ -1,5 +1,5 @@
 ---
-title: "Diffusion data initialization"
+title: "Preprocessing"
 subtitle: "Preprocess Diffusion-weighted magnetic resonance imaging data"
 layout: app
 starturl: "https://brain-life.org/preprocessing"
