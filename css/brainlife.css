@@ -3,8 +3,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 .btn {
-    font-weight: bold;
-    transition: background-color 0.5s;
+font-weight: bold;
+transition: background-color 0.5s;
 }
 .btn-lg {
 padding: 10px 36px;
@@ -23,6 +23,7 @@ background-color: #2693ff;
 
 .btn-primary {
 background-color: #159957;
+color: white;
 }
 
 .app-header {
@@ -61,7 +62,7 @@ box-shadow: 0px 0px 5px #333;
 .page-header h1 {
 font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 27px;
-margin: 4px 35px;
+margin: 4px 37px;
 padding: 0px;
 font-weight: bold;
 }

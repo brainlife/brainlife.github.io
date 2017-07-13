@@ -91,7 +91,7 @@ height="300px" viewBox="0 0 762 300" xml:space="preserve" class="cloud cloud-big
 </svg>
 
 <div style="z-index: 200; position: absolute;">
-	<h1 class="project-name animated zoomIn">{{ site.title }}</h1>
+	<h1 class="project-name animated" id="title">{{ site.title }}</h1>
 	<h2 class="project-tagline">{{ site.tagline }}</h2>
 	<a href="https://github.com/brain-life" class="btn">
 	<!--<img src="images/github-logo.svg" width="18px" style="top: 2px; position: relative; margin-right: 10px;">-->
@@ -107,13 +107,18 @@ height="300px" viewBox="0 0 762 300" xml:space="preserve" class="cloud cloud-big
 
 <script>
 function onscroll() {
-  var banner = document.getElementById("banner");
-  var y = window.scrollY;
-  if (y >= 225) {
-    banner.className = "page-header affix"
-  } else {
-    banner.className = "page-header"
-  }
+	var banner = document.getElementById("banner");
+	var y = window.scrollY;
+	if (y >= 225) {
+		banner.className = "page-header affix"
+	} else {
+		banner.className = "page-header"
+	}
+	/*doesn't work
+	if(y == 0) {
+		document.getElementById("title").classList.add("zoomIn");
+	}
+	*/
 }
 window.addEventListener("scroll", onscroll);
 </script>

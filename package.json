@@ -1,0 +1,20 @@
+{
+  "name": "brain-life.github.io",
+  "version": "1.0.0",
+  "description": "``` sudo apt install ruby-bundler ruby-dev sudo gem install ffi -v '1.9.18' bundle install ```",
+  "main": "collaborators.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brain-life/brain-life.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brain-life/brain-life.github.io/issues"
+  },
+  "homepage": "https://github.com/brain-life/brain-life.github.io#readme"
+}

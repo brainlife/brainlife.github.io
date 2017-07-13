@@ -16,12 +16,12 @@
 	</div>
 
 	<section class="app-header">
-		<h1 style="opacity: 0.8;">{{ page.title }}</h1>
+		<h1>{{ page.title }}</h1>
 		{% if page.starturl %} 
-			<a href="{{page.starturl}}" class="btn btn-lg btn-primary animated bounceIn" style="float: right; box-shadow: 0 0 15px #222;">Start</a>
+			<a href="{{page.starturl}}" class="btn btn-lg btn-primary animated bounceIn" style="float: right; box-shadow: 0 0 10px #444;">Start</a>
 		{% endif %}
 		{% if page.subtitle %} 
-			<h2>{{page.subtitle}}</h2>
+			<h2 style="opacity: 0.9;">{{page.subtitle}}</h2>
 		{% endif %}
 		<br>
 	</section>
@@ -32,7 +32,7 @@
 
 		{% if page.starturl %} 
 		<center style="margin: 75px 0px;">
-			<a href="{{page.starturl}}" class="btn btn-lg btn-primary">Start</a>
+			<a href="{{page.starturl}}" class="btn btn-lg btn-primary" style="box-shadow: 0 0 5px #666;">Start</a>
 		</center>
 		{% endif %} 
 
