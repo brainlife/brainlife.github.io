@@ -7,7 +7,9 @@ permalink: /life
 giturl: "https://github.com/brain-life/app-life"
 ---
 
-Automated access to [Compute clouds](https://jetstream-cloud.org) to use the Linear Fascicle Evaluation method [LiFE](http://francopestilli.github.io/life/). Standard tractography can use diffusion measurements from a living brain to generate a large collection of candidate white-matter fascicles; the connectome. Linear Fascicle Evaluation (`LiFE`) takes any connectome and uses a forward modelling approach to predict diffusion measurements. `LiFE` predicts the measured diffusion signal using the orientation of the fascicles present in a connectome. The difference between the measured and predicted diffusion signals is used to evaluate the prediction error of a connectome and perform evaluate the evidence supporting properties of the connectome. 
+Automated access to [Compute clouds](https://jetstream-cloud.org) to use the Linear Fascicle Evaluation method [LiFE](http://francopestilli.github.io/life/). Standard tractography can use diffusion measurements from a living brain to generate a large collection of candidate white-matter fascicles; the connectome. Linear Fascicle Evaluation (`LiFE`) takes any connectome and uses a forward modelling approach to predict diffusion measurements. 
+
+`LiFE` predicts the measured diffusion signal using the orientation of the fascicles present in a connectome. The difference between the measured and predicted diffusion signals is used to evaluate the prediction error of a connectome and quantify the evidence supporting properties of the connectome. 
 
 The services generate the following metrics:
 
@@ -21,7 +23,6 @@ These metrics can be used for:
 3. Testing hypotheses about white-matter tracts and connections.
 
 <br>
-<h3>Sample Output</h3>
 <center>
 <img src="/images/screenshots/life.png" class="screenshot">
 </center>

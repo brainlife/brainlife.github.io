@@ -2,30 +2,28 @@
 <html lang="en-us">
 {% include head.html %}
 <body>
+	<!--
 	{% if page.giturl %}
 	<a href="{{page.giturl}}">
 		<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png">
 	</a>
 	{% endif %}
+	-->
 
-	<section class="page-header app-header">
-		<!--
-		<svg class="title-cloud" x="0" y="0" width="200" height="100" viewBox="0 0 1000 300" xml:space="preserve">
-			<path fill="#fff" d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106 c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529 C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5 S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"/>
-		</svg>
-		<div class="title" style="color: #2693ff" onclick="document.location='/'">
-		Brain Life
-		</div>
-		-->
+	<div class="page-header">
+		<h1><a href="/">{{ site.title }}</a></h1>
+		{% include plablogo.html %}
+	</div>
+
+	<section class="app-header">
 		<h1 style="opacity: 0.8;">{{ page.title }}</h1>
+		{% if page.starturl %} 
+			<a href="{{page.starturl}}" class="btn btn-lg btn-primary animated bounceIn" style="float: right; box-shadow: 0 0 15px #222;">Start</a>
+		{% endif %}
 		{% if page.subtitle %} 
 			<h2>{{page.subtitle}}</h2>
 		{% endif %}
-		{% if page.starturl %} 
-			<a href="{{page.starturl}}" class="btn animated bounceIn">Start</a>
-			<br>
-			<br>
-		{% endif %}
+		<br>
 	</section>
 
 	<section class="main-content">
@@ -33,9 +31,9 @@
      		{{ content }}
 
 		{% if page.starturl %} 
-			<center style="margin: 75px 0px; font-size: 150%;">
-				<a href="{{page.starturl}}" class="btn btn-gray">Start</a>
-			</center>
+		<center style="margin: 75px 0px;">
+			<a href="{{page.starturl}}" class="btn btn-lg btn-primary">Start</a>
+		</center>
 		{% endif %} 
 
 		{% include page-footer.html %}

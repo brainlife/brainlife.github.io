@@ -4,48 +4,75 @@ body {
 }
 .btn {
     font-weight: bold;
+    transition: background-color 0.5s;
+}
+.btn-lg {
+padding: 10px 36px;
+font-size: 22px;
+line-height: 1.5;
+border-radius: 6px;
 }
 .btn-gray {
-    color: #666;
-    background-color: rgba(0, 0, 0, 0.08);
-    /*border-color: rgba(0, 0, 0, 0.2);*/
+color: #666;
+background-color: rgba(0, 0, 0, 0.08);
 }
       
-.btn-gray:hover {
-    /*background-color: #2693ff;*/
-    background-color: rgba(0,0,0,0.2);
-    /*border-color: rgba(0, 0, 0, 0.3); */
+.btn:hover {
+background-color: #2693ff;
 }
-.page-header {
-    /*box-shadow: 0 0 200px rgba(0,0,0,0.3) inset;*/
+
+.btn-primary {
+background-color: #159957;
 }
 
 .app-header {
-background-image: inherit;
-background-color: #20a98f;
-box-shadow: 0 0 200px rgba(0,0,0,0.5) inset;
+background-image: url("/images/wallhaven-338257_2560x1080.jpg");
 padding: 1rem 2rem;
+color: white;
+margin-top: 50px;
 }
-.app-header h1 {
-    font-size: 40px; 
-    text-transform: uppercase;
+.app-header h1 { 
+font-size: 40px; 
+text-transform: uppercase;
 }
 .app-header .app-homebutton {
-    font-size: 30px;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    opacity: 0.4;
-    transition: opacity 0.5s;
+font-size: 30px;
+position: absolute;
+top: 15px;
+left: 15px;
+opacity: 0.4;
+transition: opacity 0.5s;
 }
 .app-header .app-homebutton:hover {
-    cursor: pointer;
-    opacity: 1;
+cursor: pointer;
+opacity: 1;
+}
+.page-header {
+width: 100%;
+position: fixed;
+top: 0px;
+overflow: hidden;
+height: 50px;
+z-index: 100;
+padding: 0px;
+text-align: left;
+box-shadow: 0px 0px 5px #333;
+}
+.page-header h1 {
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 27px;
+margin: 4px 35px;
+padding: 0px;
+font-weight: bold;
+}
+.page-header h1 a {
+text-decoration: none;
+color: inherit;
 }
 .page-header h2 {
-    opacity: 1;
-    margin-left: auto;
-    margin-right: auto;
+opacity: 1;
+margin-left: auto;
+margin-right: auto;
 }
 
 .main-content {
@@ -114,5 +141,20 @@ footer.site-footer {
 }
 footer.site-footer a {
     color: white;
-
 }
+
+.page-header .plab-logo {
+position: fixed;
+top: 0px;
+right: 0px;
+padding: 6px 30px;
+margin: 0px;
+opacity: 0.7;
+z-index: 200;
+text-transform: uppercase;
+}
+.plab-logo a {
+text-decoration: none;
+color: white;
+}
+
