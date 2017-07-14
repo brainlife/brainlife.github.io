@@ -32,10 +32,17 @@ padding: 1rem 2rem;
 color: white;
 margin-top: 50px;
 }
-.app-header h1 { 
+.app-header .main-content h1 { 
 font-size: 40px; 
 text-transform: uppercase;
+color: white;
+margin-top: 0px;
 }
+.app-header .main-content h2 { 
+color: white;
+opacity: 0.6;
+}
+
 .app-header .app-homebutton {
 font-size: 30px;
 position: absolute;
