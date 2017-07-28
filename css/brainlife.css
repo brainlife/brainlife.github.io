@@ -102,12 +102,21 @@ padding-bottom: 0px;
 .main-content .colorback.grayback {
     background-color: #333333;
 }
+.main-content .colorback.greenback {
+    background-color: #159957;
+}
 .main-content .colorback h1,
 .main-content .colorback h2,
 .main-content .colorback h3 {
     color: white;
-    opacity: 0.7;
     margin-top: 15px;
+}
+.main-content h1 {
+    font-weight: bold;
+}
+.main-content .colorback a {
+    color: white;
+    opacity: 0.8;
 }
 
 .main-content .colorback blockquote {
