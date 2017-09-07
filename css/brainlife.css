@@ -20,6 +20,9 @@ background-color: rgba(0, 0, 0, 0.08);
 .btn:hover {
 background-color: #2693ff;
 }
+.btn:hover h3 {
+color: white;
+}
 
 .btn-primary {
 background-color: #159957;
