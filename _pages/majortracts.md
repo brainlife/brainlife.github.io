@@ -2,7 +2,7 @@
 title: "White Matter Tracts"
 subtitle: "Segments major human white matter tracts"
 layout: app
-starturl: "https://brain-life.org/majortracts"
+starturl: "https://brainlife.io/majortracts"
 permalink: /majortracts
 giturl: "https://github.com/brain-life/app-tractclassification"
 ---

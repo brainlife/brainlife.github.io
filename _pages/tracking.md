@@ -2,7 +2,7 @@
 title: "Tracking"
 subtitle: "Generate brain connectomes using a combination fiber tracking method."
 layout: app
-starturl: "https://brain-life.org/tracking"
+starturl: "https://brainlife.io/tracking"
 giturl: "https://github.com/brain-life/app-tracking"
 permalink: /tracking
 ---

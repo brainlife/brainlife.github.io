@@ -2,7 +2,7 @@
 title: "Preprocessing"
 subtitle: "Preprocess Diffusion-weighted magnetic resonance imaging data"
 layout: app
-starturl: "https://brain-life.org/preprocessing"
+starturl: "https://brainlife.io/preprocessing"
 permalink: /preprocessing
 giturl: "https://github.com/brain-life/app-dtiinit"
 ---
