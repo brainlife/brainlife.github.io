@@ -24,20 +24,6 @@ permalink: /o3d
 		<p>
 		You can download a rich dataset composed of <b>dMRI</b> obtained from healthy, cognitively normal human individuals and <b>derivatives</b> in a BIDS-standard data structure for further analysis.
 		</p>
-
-		<!--
-		<p>
-		The tractography results are evaluated using state-of-the-art methods and standard methods used to segment the major human white matter tracts. Additionally, a series of connection matrices will be generated using standard cortical segmentation methods.
-		</p>
-
-		<p>
-		The full dataset comprises a few initial data files (12 brains from three different data sets with different properties of signal-to-noise ratio and resolution) and a large set of Derivatives comprising 1,440 tractograms, associated major tracts segmentations and connectomes. 
-		</p>
-
-		<p>
-		These results comprising of just under 10 Terabytes of compressed data account for about 3 months of compute time on the most modern high-performance compute systems. You can download data organized in <b>BIDS</b> (Brain Imaging Data Structure) standard with Open Data Common Attribution License.
-		</p>
-		-->
 	</div>
 	<div style="float: right; width: 45%;">
 		<a href="https://brainlife.io/o3d" class="btn btn-gray">
@@ -50,13 +36,6 @@ permalink: /o3d
 		<p>
 		You can reproduce, or generate your own O3D data derivatives through O3D online pipeline by uploading your data to our online workflow submission system.
 		</p>
-		
-		<!--
-		<p>
-		You need T1-anatomy and DWI data (.nii.gz/bvecs/bvals) to submit the pipeline workflow, and the processing will take about 24-36 hours.
-		</p>
-		-->
-
 	</div>
 </div>
 <br clear="both">
@@ -138,16 +117,6 @@ Investigators studying white matter, neuroanatomy, as well as software developer
 
 # How is data processed?
 
-<!--
-## BIDS Format
-
-Data files are organized according to the specifications defined by the Brain Imaging Data Structure (BIDS). BIDS proposes a new standard for organize and describe neuroimaging data that can be both human and machine readable. Currently the specifications of the format don’t cover entirely the definition for data derivatives. We refer to the latest draft of the standard that introduces the format for data derivatives. 
-
-The documentation of BIDS is available at <a href="http://bids.neuroimaging.io">http://bids.neuroimaging.io</a>
--->
-
-<!--## Voxel reconstruction model and tractography-->
-
 White matter fascicles tracking was performed using MRtrix 0.2.12.  White- and gray-matter tissues were segmented using the T1-weighted MRI images associated to each individual brain, and then resampled at the resolution of the dMRI data. Only voxels identified primarily as white-matter tissue were used to perform tracking. 
 
 ## Tract evaluation
@@ -169,18 +138,6 @@ Whole brain fascicles groups comprising only the tracts successfully contributin
 - Superior longitudinal fasciculus (SLFl) (SLFr)
 - Uncinate fasciculus (UFl) (UFr)
 - Superior longitudinal fasciculus - temporal part (SLFTl) (SLFTr)
-
-<!--
-## Tractogram registration
-- (Wang et al. 2011)
-- (O’Donnell et al. 2012)
-- (Garyfallidis et al. 2015)
-
-## Tractogram clustering
-- (Maddah et al. 2008)
-- (Garyfallidis et al. 2012)
-- (O'Donnell et al. 2013)
--->
 
 <br>
 <br>
