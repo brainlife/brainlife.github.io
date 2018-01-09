@@ -16,7 +16,7 @@ The services generate the following metrics:
 * *The strength of evidence* compares the mean prediction error between alternative hypotheses. 
 * *The earth mover's distance* compares full distributions of prediction error. 
 
-These metrics can be used for: 
+These metrics can be used for > 
 
 1. Comparing tractography algorithms.
 2. Evaluating the quality of tractography solutions for individual brains or for a group of brains
