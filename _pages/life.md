@@ -22,8 +22,4 @@ These metrics can be used for.
 2. Evaluating the quality of tractography solutions for individual brains or for a group of brains
 3. Testing hypotheses about white-matter tracts and connections.
 
-<br>
-<center>
-<img src="/images/screenshots/life.png" class="screenshot">
-</center>
-<br>
+![screenshot](/images/screenshots/life.png)
