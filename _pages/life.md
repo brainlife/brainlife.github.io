@@ -2,8 +2,8 @@
 title: "Linear Fascicle Evaluation (LiFE)"
 subtitle: "Evaluation and statistical inference"
 layout: app
-starturl: "https://brainlife.io/legacy/life"
-permalink: /life
+starturl: "/legacy/life"
+permalink: /home/life
 giturl: "https://github.com/brain-life/app-life"
 ---
 

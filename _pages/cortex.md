@@ -2,8 +2,8 @@
 title: "Brain Tissue Extraction"
 subtitle: "Process brain images using FreeSurfer"
 layout: app
-starturl: "https://brainlife.io/legacy/cortex"
-permalink: /cortex
+starturl: "/legacy/cortex"
+permalink: /home/cortex
 giturl: "https://github.com/brain-life/app-freesurfer"
 ---
 

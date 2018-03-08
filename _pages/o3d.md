@@ -2,7 +2,7 @@
 title: "O3D"
 subtitle: "Open Diffusion Data and Derivatives"
 layout: app
-permalink: /o3d
+permalink: /home/o3d
 ---
 
 <br>
@@ -13,10 +13,10 @@ permalink: /o3d
 
 <div style="margin-top: 50px;">
 	<div style="float: left; width: 45%;">
-		<a href="https://brainlife.io/project/5a022fc99c0d250055709e9c" class="btn btn-gray">
+		<a href="/project/5a022fc99c0d250055709e9c" class="btn btn-gray">
 			<center>
 			<h3>O3D Repository</h3>
-			<img src="images/o3drepo.png" style="width: 80%; box-shadow: 2px 2px 4px #666;">
+			<img src="/images/o3drepo.png" style="width: 80%; box-shadow: 2px 2px 4px #666;">
 			</center>
 		</a>
 
@@ -25,10 +25,10 @@ permalink: /o3d
 		</p>
 	</div>
 	<div style="float: right; width: 45%;">
-		<a href="https://brainlife.io/legacy/o3d" class="btn btn-gray">
+		<a href="/legacy/o3d" class="btn btn-gray">
 			<center>
 			<h3>O3D Pipeline</h3>
-			<img src="images/o3dflow.png" style="width: 80%; box-shadow: 2px 2px 4px #666;">
+			<img src="/images/o3dflow.png" style="width: 80%; box-shadow: 2px 2px 4px #666;">
 			</center>
 		</a>
 	
@@ -47,7 +47,7 @@ permalink: /o3d
 <div class="columns3">
 
     <center>
-        <img src="images/male-brain.svg" style="width: 50%;">
+        <img src="/images/male-brain.svg" style="width: 50%;">
         <h3>Neuroscientists</h3>
     </center>
     
@@ -56,7 +56,7 @@ Neuroscientists interested in developing algorithms for community detection and 
     <br>
 
     <center>
-        <img src="images/binary-code-numbers-on-monitor-screen.svg" style="width: 50%;">
+        <img src="/images/binary-code-numbers-on-monitor-screen.svg" style="width: 50%;">
         <h3>Computer Scientists</h3>
     </center>
 
@@ -65,7 +65,7 @@ Computer scientists are interested in implementing algorithms to perform white m
     <br>
 
     <center>
-        <img src="images/group-of-people-in-a-formation.svg" style="width: 50%;">
+        <img src="/images/group-of-people-in-a-formation.svg" style="width: 50%;">
         <h3>Students</h3>
     </center>
 
@@ -142,7 +142,7 @@ Whole brain fascicles groups comprising only the tracts successfully contributin
 <br>
 
 <center>
-    <img src="images/open-book.svg" style="width: 100px;">
+    <img src="/images/open-book.svg" style="width: 100px;">
 </center>
 
 

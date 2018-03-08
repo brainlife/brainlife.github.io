@@ -2,15 +2,15 @@
 title: "Connectome evaluator"
 subtitle: "Estimate the quality of your diffusion-weighted data to map human connectomes."
 layout: app
-starturl: "https://brainlife.io/legacy/evaluator"
-permalink: /evaluator
+starturl: "/legacy/evaluator"
+permalink: /home/evaluator
 ---
 
 <br>
 <center>
-<img src="images/brainmodel_a.png" width="200px;">
-<img src="images/brainmodel_b.png" width="200px;">
-<img src="images/tracts.png" width="200px">
+<img src="/images/brainmodel_a.png" width="200px;">
+<img src="/images/brainmodel_b.png" width="200px;">
+<img src="/images/tracts.png" width="200px">
 </center>
 <br>
 
@@ -18,6 +18,6 @@ Automated access to [Compute clouds](https://jetstream-cloud.org) to use the Lin
 
 <br>
 <center>
-<img src="images/comparison.png">
+<img src="/images/comparison.png">
 <center>
 <br>
