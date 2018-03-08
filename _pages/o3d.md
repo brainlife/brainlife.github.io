@@ -145,5 +145,6 @@ Whole brain fascicles groups comprising only the tracts successfully contributin
     <img src="/images/open-book.svg" style="width: 100px;">
 </center>
 
-
+<br>
+<br>
 
