@@ -2,7 +2,7 @@
 title: "Brain Network"
 subtitle: "Automated brain networks generation"
 layout: app
-starturl: "https://brainlife.io/networkneuro"
+starturl: "https://brainlife.io/legacy/networkneuro"
 permalink: /networkneuro
 giturl: "https://github.com/brain-life/app-networkneuro"
 ---

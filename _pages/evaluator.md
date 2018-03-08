@@ -2,7 +2,7 @@
 title: "Connectome evaluator"
 subtitle: "Estimate the quality of your diffusion-weighted data to map human connectomes."
 layout: app
-starturl: "https://brainlife.io/evaluator"
+starturl: "https://brainlife.io/legacy/evaluator"
 permalink: /evaluator
 ---
 

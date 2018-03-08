@@ -2,7 +2,6 @@
 title: "O3D"
 subtitle: "Open Diffusion Data and Derivatives"
 layout: app
-starturl-dis: "https://brainlife.io/o3d"
 permalink: /o3d
 ---
 
@@ -14,7 +13,7 @@ permalink: /o3d
 
 <div style="margin-top: 50px;">
 	<div style="float: left; width: 45%;">
-		<a href="https://brainlife.io/warehouse/datasets/5a022fc99c0d250055709e9c" class="btn btn-gray">
+		<a href="https://brainlife.io/project/5a022fc99c0d250055709e9c" class="btn btn-gray">
 			<center>
 			<h3>O3D Repository</h3>
 			<img src="images/o3drepo.png" style="width: 80%; box-shadow: 2px 2px 4px #666;">
@@ -26,7 +25,7 @@ permalink: /o3d
 		</p>
 	</div>
 	<div style="float: right; width: 45%;">
-		<a href="https://brainlife.io/o3d" class="btn btn-gray">
+		<a href="https://brainlife.io/legacy/o3d" class="btn btn-gray">
 			<center>
 			<h3>O3D Pipeline</h3>
 			<img src="images/o3dflow.png" style="width: 80%; box-shadow: 2px 2px 4px #666;">
