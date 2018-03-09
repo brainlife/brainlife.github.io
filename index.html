@@ -94,7 +94,10 @@ This process can, in principle, facilitate discovery by convergent efforts from 
 Promoting open software and data sharing has become paramount to addressing the problem of scientific reproducibility. 
    
 <b>Brain Life</b> addresses challenges to neuroscience open sharing and reproducibility by providing integrative mechanisms for publishing data, and algorithms while embedding them with computing resources to impact multiple scientific communities. 
-<b>Brain Life</b> is a project under active development. We currently offer several cloud computing services – also called <b><a href="https://github.com/brain-life/abcd-spec">Brain Life Applications</a></b> </p>
+<!--
+<b>Brain Life</b> is a project under active development. We currently offer several cloud computing services – also called <b><a href="https://github.com/brain-life/abcd-spec">Brain Life Applications</a></b> 
+-->
+</p>
 
 <br>
 
@@ -102,37 +105,31 @@ Promoting open software and data sharing has become paramount to addressing the 
     <div class="app-tile" onclick="window.location = '/home/preprocessing'">
         <h2>Preprocessing</h2>
         <p class="app-title">Initialize diffusion-weighted data.</p>
-        <!--<a href="#" class="startbtn">Start</a>-->
         <i class="fa fa-sticky-note app-icon" aria-hidden="true"></i> 
     </div>
     <div class="app-tile" onclick="window.location = '/home/tracking'">
         <h2>Tracking</h2>
         <p class="app-title">Tract brain connections using statistical ensemble methods.</p>
-        <!--<a href="#" class="startbtn">Start</a>-->
         <i class="fa fa-random app-icon" aria-hidden="true"></i> 
     </div>
     <div class="app-tile" onclick="window.location = '/home/life'">
         <h2>LiFE</h2>
         <p class="app-title">Evaluation and statistical inference for brain connectomes.</p>
-        <!--<a href="#" class="startbtn">Start</a>-->
         <i class="fa fa-signal app-icon" aria-hidden="true"></i> 
     </div>
     <div class="app-tile" onclick="window.location = '/home/networkneuro'">
         <h2>Brain Network</h2>
         <p class="app-title">Create brain connection matrices.</p>
-        <!--<a href="#" class="startbtn">Start</a>-->
         <i class="fa fa-file-text-o app-icon" aria-hidden="true"></i> 
     </div>
     <div class="app-tile" onclick="window.location = '/home/majortracts'">
         <h2>White Matter Tracts</h2>
         <p class="app-title">Identify major human white matter tracts.</p>
-        <!--<a href="#" class="startbtn">Start</a>-->
         <i class="fa fa-sitemap app-icon" aria-hidden="true"></i> 
     </div>
     <div class="app-tile" onclick="window.location = '/home/evaluator'">
         <h2>Connectome Evaluator</h2>
         <p class="app-title">Provide quantitative estimates of connectome quality.</p>
-        <!--<a href="#" class="startbtn">Start</a>-->
         <i class="fa fa-balance-scale app-icon" aria-hidden="true"></i> 
     </div>
     <div class="app-tile" onclick="window.location = '/home/cortex'">
@@ -169,12 +166,6 @@ Promoting open software and data sharing has become paramount to addressing the 
     <p>Use the data and data derivatives to gather new insights into individuality and variability of the human brain in large populations.
     </p>
 </div>
-
-<!--
-<blockquote>
-A new generation of computational neuroscience tools for big data neuroscience.
-</blockquote>
--->
 
 <div class="colorback blueback">
     <h1>An open, collaborative cloud computing platform.</h1>
@@ -310,12 +301,6 @@ A new generation of computational neuroscience tools for big data neuroscience.
 	    <h3><a href="mailto:frakkopesto@gmail.com"><b>PI: Franco Pestilli</b> &lt;frakkopesto@gmail.com&gt;</a></h3>
 	    <h3><a href="https://brainlife.slack.com"><b><i class="fa fa-slack" aria-hidden="true"></i> brainlife.slack.com</b></a></h3>
     </div>
-    <!-- moved to plab page
-    <div style="border-top: 1px solid rgba(255,255,255,0.5); opacity: 0.7; padding: 20px 0px; margin-top: 50px;">
-	    Department of Psychological and Brain Sciences, 
-	    Indiana University, Bloomington, IN 47405 USA.
-    </div>
-    -->
     <br>
 </div>
 
@@ -332,7 +317,6 @@ function initMap() {
 
     for(var uname in campuses) {
 	var campus = campuses[uname];
-
 	//create university marker
 	campus.m = new google.maps.Marker({
 	    position: {lat: campus.lat, lng: campus.lng},
