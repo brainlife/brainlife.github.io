@@ -38,7 +38,7 @@ width: 100px;
 
 .page-header {
 height: 350px;
-transition: padding 0.2s linear;
+transition: padding 0.25s linear;
 padding: 3rem 4rem;
 z-index: 0;
 text-align: center;
@@ -46,23 +46,21 @@ text-align: center;
 .page-header h1 {
 margin: 0px;
 font-size: 52px;
+position: relative;
+left: -5px;
 }
 .page-header .project-name {
-transition: font-size 0.2s ease;
+transition: font-size 0.25s ease;
 }
 @media screen and (min-width: 42em) {
 	.page-header.affix {
 		height: 50px;
 		z-index: 20;
-		padding: 5px 31px;
-		box-shadow: 0px 0px 1px #222;
+		padding: 4px 0px;
 	}
 	.page-header.affix .project-name {
 		font-size: 20pt;
 	}
-    .page-header {
-        text-align: left;
-    }
 }
 
 </style>
