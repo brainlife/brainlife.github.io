@@ -2,6 +2,9 @@ body {
 overflow-x: hidden; /*for testimony padding*/
 line-height: 175%;
 }
+a {
+color: #159957;
+}
 .btn {
 font-weight: bold;
 transition: background-color 0.5s;
@@ -143,7 +146,7 @@ padding-bottom: 0px;
 }
 .main-content .blueback a {
     /*font-style: italic;*/
-    color: #5f9;
+    color: white;
 }
 
 .center-image {
@@ -163,6 +166,9 @@ padding-bottom: 0px;
 }
 .contact a {
     font-weight: 700;
+}
+.contact .title {
+    opacity: 0.6;
 }
 .screenshot {
     box-shadow: 0 0 25px rgba(0,0,0,0.2);
