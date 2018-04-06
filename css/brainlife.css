@@ -1,6 +1,6 @@
-body {
-overflow-x: hidden; /*for testimony padding*/
+body, html {
 line-height: 175%;
+overflow-x: hidden;
 }
 a {
 color: #159957;

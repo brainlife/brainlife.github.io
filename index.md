@@ -2,7 +2,6 @@
 layout: landing
 ---
 
-
 {% include landing.about.html %}
 {% include landing.refs.html %}
 
