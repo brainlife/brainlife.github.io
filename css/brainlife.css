@@ -218,10 +218,10 @@ vertical-align: top; padding: 10px; border: none;
 
 .theicon {
 display: inline-block;
-padding: 23px;
+padding: 25px;
 width: auto;
 border-radius: 50%;
 margin-bottom: 20px;
-color: white;
+box-shadow: 2px 2px 15px #ccc;
 }
 
