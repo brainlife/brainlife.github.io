@@ -1,10 +1,32 @@
+<style>
+div.online {
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  margin: 0 5px;
+  font-size: 90%;
+}
+div.online::after {
+  content: "";
+  background: url(images/online.png);
+background-size: 150px 100px;
+background-repeat: no-repeat;
+  opacity: 0.1;
+  top: -5px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+</style>
+
 <br>
-<br>
-<center style="padding: 4rem 0;">
+<center style="padding: 3rem 0;">
     <!--
     <h2><b>Engagement and education in Big Data, reproducible neuroscience</b></h2>
     -->
-    <h1><b>An online platform for</b></h1>
+    <h1 style="color: #bbb; line-height: 200%;"><b>An <div class="online">ONLINE</div> platform for</b></h1>
 </center>
 <table class="layout-table" style="font-size: 85%;">
 <tr>
