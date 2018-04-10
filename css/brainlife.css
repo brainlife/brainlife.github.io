@@ -163,6 +163,7 @@ padding-bottom: 0px;
     filter: grayscale(100%);
     box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
     border: 5px solid white;
+    width: 90%;
 }
 .contact a {
     font-weight: 700;
