@@ -96,6 +96,8 @@ margin-right: auto;
 .main-content {
 padding-bottom: 0px;
 background-color: white;
+position: relative;
+z-index: 1;
 }
 
 .main-content .columns3 {
