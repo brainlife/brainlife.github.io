@@ -5,7 +5,8 @@
   "main": "collaborators.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bundle exec jekyll serve"
+    "dev": "bundle exec jekyll serve",
+    "deploy-prod": "ssh root@brainlife.io 'cd /root/docker/home/brainlife.github.io && git pull'"
   },
   "repository": {
     "type": "git",
