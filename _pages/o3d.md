@@ -85,7 +85,7 @@ Investigators studying white matter, neuroanatomy, as well as software developer
     <p>
         <!--<small class="pull-right">96 gradient directions, $1.5 mm$ isotropic resolution)</small><br>-->
         <b>STN</b><br>
-        Ddata collected in four subjects (age 37-39) at the Stanford Center for Cognitive and Neurobiological Imaging with a 3T General Electric Discovery 750 (General Electric Healthcare), using a 32-channel head coil (Nova Medical).
+        Data collected in four subjects (age 37-39) at the Stanford Center for Cognitive and Neurobiological Imaging with a 3T General Electric Discovery 750 (General Electric Healthcare), using a 32-channel head coil (Nova Medical).
     </p>
     <a href="http://purl.stanford.edu/rt034xr8593" target="_blank">- http://purl.stanford.edu/rt034xr8593</a><br>
     <a href="http://purl.stanford.edu/ng782rw8378" target="_blank">- http://purl.stanford.edu/ng782rw8378</a><br>
