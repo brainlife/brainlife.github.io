@@ -62,6 +62,11 @@ transition: font-size 0.25s ease;
 		font-size: 20pt;
 	}
 }
+@media screen and (max-width: 42em) {
+	.page-header.overscrolled {
+		display:none;
+	}
+}
 
 </style>
 
@@ -117,11 +122,14 @@ height="300px" viewBox="0 0 762 300" xml:space="preserve" class="cloud cloud-big
 function onscroll() {
 	var banner = document.getElementById("banner");
 	var y = window.scrollY;
-	if (y >= 225) {
-		banner.className = "page-header affix"
-	} else {
-		banner.className = "page-header"
-	}
+	var mainContent = document.getElementById("main-content");
+	
+	var bannerClasses = ['page-header'];
+	
+	if (y >= 225) bannerClasses.push('affix');
+	if (mainContent.getBoundingClientRect().top <= 0) bannerClasses.push('overscrolled');
+	banner.className = bannerClasses.join(' ');
+	
 	/*doesn't work
 	if(y == 0) {
 		document.getElementById("title").classList.add("zoomIn");
