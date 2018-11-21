@@ -1,5 +1,5 @@
 {
-  "name": "brain-life.github.io",
+  "name": "brainlife.github.io",
   "version": "1.0.0",
   "description": "``` sudo apt install ruby-bundler ruby-dev sudo gem install ffi -v '1.9.18' bundle install ```",
   "main": "collaborators.js",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brain-life/brain-life.github.io.git"
+    "url": "git+https://github.com/brainlife/brainlife.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brain-life/brain-life.github.io/issues"
+    "url": "https://github.com/brainlife/brainlife.github.io/issues"
   },
-  "homepage": "https://github.com/brain-life/brain-life.github.io#readme"
+  "homepage": "https://github.com/brainlife/brainlife.github.io#readme"
 }
