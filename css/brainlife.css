@@ -1,6 +1,10 @@
 body, html {
 line-height: 175%;
 overflow-x: hidden;
+font-family: Raleway;
+}
+h1 {
+font-family: "Open Sans";
 }
 a {
 color: #159957;
@@ -9,14 +13,30 @@ color: #159957;
 font-weight: bold;
 transition: background-color 0.5s;
 }
+.page-header .btn + .btn {
+margin-left: 0.1rem;
+}
 .btn-landing {
 color: white;
+border: none;
+transition: color 1s;
+transition: background-color 1s;
+}
+.page-header .btn-landing:hover {
+background-color: white;
+color: #2693ff;
 }
 .btn-lg {
 padding: 10px 36px;
 font-size: 22px;
 line-height: 1.5;
 border-radius: 6px;
+}
+.btn-sm {
+padding: 8px;
+border: none;
+line-height: 1;
+background-color: inherit;
 }
 .btn-gray {
 color: #666;

@@ -52,6 +52,13 @@ left: -5px;
 .page-header .project-name {
 transition: font-size 0.25s ease;
 }
+.header-buttons {
+z-index: 201; 
+position: absolute; 
+top: 9px; 
+right: 200px
+}
+
 @media screen and (min-width: 42em) {
 	.page-header.affix {
 		height: 50px;
@@ -66,6 +73,10 @@ transition: font-size 0.25s ease;
 	.page-header.overscrolled {
 		display:none;
 	}
+    .header-buttons,
+    .plab-logo {
+        display: none;
+    }
 }
 
 </style>
@@ -112,6 +123,11 @@ height="300px" viewBox="0 0 762 500" xml:space="preserve" class="cloud cloud-far
 	<h1 class="project-name animated" id="title">{{ site.title }}</h1>
 	<h2 class="project-tagline">{{ site.tagline }}</h2>
     <a href="https://brainlife.io/project/" class="btn btn-landing">&nbsp;&nbsp;&nbsp;<i class="fas fa-play"></i> &nbsp;&nbsp;&nbsp;GET STARTED&nbsp;&nbsp;&nbsp;</a>
+</div>
+
+<div class="header-buttons">
+    <a href="https://brainlife.io/project/" class="btn btn-sm"><i class="fas fa-play"></i></a>
+    <a href="https://brainlife.io/docs/" class="btn btn-sm"><i class="fas fa-book"></i></a>
 </div>
 
 {% include plablogo.html %}
