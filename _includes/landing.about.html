@@ -1,23 +1,23 @@
 <style>
 div.online {
-  width: 150px;
-  height: 100px;
-  display: inline-block;
-  position: relative;
-  margin: 0 5px;
-  font-size: 90%;
+width: 150px;
+height: 100px;
+display: inline-block;
+position: relative;
+margin: 0 5px;
+font-size: 90%;
 }
 div.online::after {
-  content: "";
-  background: url(images/online.png);
+content: "";
+background: url(images/online.png);
 background-size: 150px 100px;
 background-repeat: no-repeat;
-  opacity: 0.1;
-  top: -5px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
+opacity: 0.1;
+top: -5px;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
 }
 
 .headlink a {
@@ -25,7 +25,7 @@ text-decoration: none;
 color: inherit;
 }
 .headlink img {
-width: 80%;
+width: 75%;
 transition: transform .5s; /* Animation */
 }
 .headlink:hover img {
@@ -44,14 +44,24 @@ color: #2693ff !important;
 .clickable-table tr:hover {
 /*color: #2693ff;*/
 }
+td .secondary {
+transition: opacity 0.5s, transform 0.5s;
+opacity: 0;
+transform: scale(0.5);
+}
+td:hover .secondary {
+opacity: 1;
+transform: scale(1); 
+transform: translate(30px, 20px); 
+}
 
 </style>
 
 <br>
-<center style="padding: 3rem 0; line-height: 200%;">
-    <h2 style="color: gray;"><b>Engagement and Education in Big Data, Reproducible Neuroscience</b></h2>
+<center style="padding: 2rem 0; line-height: 200%;">
+    <h2 style="color: gray;">Connecting <b>brains</b> to accelerate scientific discovery.</h2>
 </center>
-<table class="layout-table" style="font-size: 85%;">
+<table class="layout-table" style="font-size: 85%; margin-bottom: -30px;">
 <tr>
     <td width="33%" class="headlink">
         <a href="https://brainlife.io/docs/user/process/">
@@ -96,7 +106,7 @@ color: #2693ff !important;
         </td>
         <td style="padding: 0px; position: relative; left: 50px; top: 10px;">
             <img src="images/process.png" class="screenshot">
-            <img src="images/screenshots/tractview.png" class="screenshot" style="width: 50%; position: absolute;right: -120px; bottom: -10px;">
+            <img src="images/screenshots/tractview.png" class="screenshot secondary" style="width: 50%; position: absolute;right: -40px; bottom: 0px;">
         </td>
     </tr>
     <tr onclick="document.location = 'https://brainlife.github.io/docs/user/started/#upload-dataset'">
@@ -120,5 +130,4 @@ color: #2693ff !important;
         </td>
     </tr>
     </table>
-    <br>
 </div>
