@@ -238,7 +238,12 @@ display: table;
 table.layout-table td {
 vertical-align: top; padding: 10px; border: none;
 }
+table.layout-table {
+    border-collapse:separate; 
+    border-spacing: 0 2em;
+}
 
+/*
 .theicon {
 display: inline-block;
 padding: 25px;
@@ -247,4 +252,5 @@ border-radius: 50%;
 margin-bottom: 20px;
 box-shadow: 2px 2px 15px #ccc;
 }
+*/
 

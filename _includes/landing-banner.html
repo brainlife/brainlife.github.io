@@ -56,7 +56,12 @@ transition: font-size 0.25s ease;
 z-index: 201; 
 position: absolute; 
 top: 9px; 
-right: 200px
+right: 200px;
+transition: opacity 1.5s;
+opacity: 0;
+}
+.page-header.overscrolled .header-buttons {
+opacity: 1;
 }
 
 @media screen and (min-width: 42em) {
@@ -126,8 +131,8 @@ height="300px" viewBox="0 0 762 500" xml:space="preserve" class="cloud cloud-far
 </div>
 
 <div class="header-buttons">
-    <a href="https://brainlife.io/project/" class="btn btn-sm"><i class="fas fa-play"></i></a>
-    <a href="https://brainlife.io/docs/" class="btn btn-sm"><i class="fas fa-book"></i></a>
+    <a href="https://brainlife.io/project/" class="btn btn-sm" title="Get Started"><i class="fas fa-play"></i></a>
+    <a href="https://brainlife.io/docs/" class="btn btn-sm" title="Documentation"><i class="fas fa-book"></i></a>
 </div>
 
 {% include plablogo.html %}

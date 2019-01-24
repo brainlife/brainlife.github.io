@@ -19,43 +19,66 @@ background-repeat: no-repeat;
   right: 0;
   position: absolute;
 }
+
+.headlink a {
+text-decoration: none;
+color: inherit;
+}
+.headlink img {
+width: 80%;
+transition: transform .5s; /* Animation */
+}
+.headlink:hover img {
+transform: scale(1.3); 
+}
+.clickable-table td {
+cursor: pointer;
+}
+.clickable-table tr h3,
+.clickable-table tr  {
+transition: color 0.5s;
+}
+.clickable-table tr:hover h3 {
+color: #2693ff !important;
+}
+.clickable-table tr:hover {
+/*color: #2693ff;*/
+}
+
 </style>
 
 <br>
 <center style="padding: 3rem 0; line-height: 200%;">
-    <h2 style="color: gray;"><b>Engagement and education in Big Data, reproducible neuroscience</b></h2>
+    <h2 style="color: gray;"><b>Engagement and Education in Big Data, Reproducible Neuroscience</b></h2>
 </center>
 <table class="layout-table" style="font-size: 85%;">
 <tr>
-    <td width="33%">
-        <center>
-            <div class="theicon">
-                <i class="fas fa-cloud fa-3x"></i>
-            </div>
-            <br>
-            <h3><b>Brain Data Analysis</b></h3>
-            <p>Accelerate discovery through a seamless access to various cloud computing resources.</p>
-        </center>
+    <td width="33%" class="headlink">
+        <a href="https://brainlife.io/docs/user/process/">
+            <center>
+                <img src="images/screenshots/resources.png" class="screenshot"/>
+                <h3><b>Brain Data Analysis</b></h3>
+                <p>Accelerate discovery through a seamless access to shared cloud computing resources.</p>
+            </center>
+        </a>
      </td>
-     <td width="33%">
-        <center>
-            <div class="theicon">
-                <i class="fas fa-sync-alt fa-3x"></i>
-            </div>
-            <br>
-            <h3><b>Sharing Data and Apps</b></h3>
-            <p>Upload data and share your Apps with other users from different insitutions and scientific domains.</p>
-        </center>
+     <td width="33%" class="headlink">
+        <a href="https://brainlife.io/apps">
+            <center>
+                <img src="images/screenshots/apps.png" class="screenshot"/>
+                <h3><b>Sharing Data and Apps</b></h3>
+                <p>Upload data and share your Apps with other users from different insitutions and scientific domains.</p>
+            </center>
+        </a>
     </td>
-    <td width="33%">
-        <center>
-            <div class="theicon">
-                <i class="fab fa-leanpub fa-3x"></i>
-            </div>
-            <br>
-            <h3><b>Publishing Results</b></h3>
-            <p>Publish your research results with a single DOI with a full data provenance for a better reproducibility.</p>
-        </center>
+    <td width="33%" class="headlink">
+        <a href="https://brainlife.io/pubs">
+            <center>
+                <img src="images/screenshots/pubs.png" class="screenshot"/>
+                <h3><b>Publishing Results</b></h3>
+                <p>Publish your research results with a single DOI with a full data provenance for a better reproducibility.</p>
+            </center>
+        </a>
     </td>
 </tr>
 </table>
@@ -65,8 +88,8 @@ background-repeat: no-repeat;
 
 <div class="colorback lightgrayback">
     <br>
-    <table class="layout-table">
-    <tr>
+    <table class="layout-table clickable-table">
+    <tr onclick="document.location = 'https://brainlife.io/docs/user/started/#visualize-dataset'">
         <td style="padding: 0px; text-align: right;">
             <h3><b><i class="fas fa-paper-plane"></i> Analyze and visualize.</b></h3>
             <p>Try the Brainlife Apps. Apps are open cloud services. Use the Apps to easily analyze data, monitor progress, visualize your results and share them with other users.</p>
@@ -76,8 +99,7 @@ background-repeat: no-repeat;
             <img src="images/screenshots/tractview.png" class="screenshot" style="width: 50%; position: absolute;right: -120px; bottom: -10px;">
         </td>
     </tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr>
+    <tr onclick="document.location = 'https://brainlife.github.io/docs/user/started/#upload-dataset'">
         <td style="padding: 0px; position: relative; right: 50px; top: 15px;" width="50%">
             <img src="images/datasets.png" class="screenshot">
         </td>
@@ -87,8 +109,7 @@ background-repeat: no-repeat;
             <p>Register your code, algorithms and visualization tools as Apps. Increase the impact of your work by letting collaborators or the whole users community easily reuse your research products.</p>
         </td>
     </tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr>
+    <tr onclick="document.location = 'https://brainlife.github.io/docs/user/publication/'">
         <td style="padding: 0px; text-align: right;">
             <h3><b><i class="fas fa-th-large"></i> Publish your value.</b></h3>
             <p>Increase the impact of your work by using an innovative publishing mechanism. Embed all your research assets, data and analyses, in a reusable cloud format.</p>
