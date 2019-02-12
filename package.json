@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bundle exec jekyll serve",
-    "deploy": "rsync -av . root@test.brainlife.io:/root/docker/home/brainlife.github.io/",
-    "deploy-prod": "rsync -av . root@brainlife.io:/root/docker/home/brainlife.github.io/"
+    "deploy": "bundle exec jekyll build && rsync -av . root@test.brainlife.io:/root/docker/home/brainlife.github.io/",
+    "deploy-prod": "bundle exec jekyll build && rsync -av . root@brainlife.io:/root/docker/home/brainlife.github.io/"
   },
   "repository": {
     "type": "git",
