@@ -99,21 +99,22 @@ transform: translate(30px, 20px);
 
         <tr onclick="document.location = 'https://brainlife.io/docs/user/pipeline/'">
             <td style="padding: 0px; text-align: right;">
-                <h3><b><i class="fas fa-paper-plane"></i> Ready for "Big Data".</b></h3>
-                <p>Brainlife is capable of analyzing large amount of subjects (>1000) and their derivatives through easy-to-use rule based submission mechanism.</p>
+                <h3><b><i class="fas fa-paper-plane"></i> Analyze "Big Data"</b></h3>
+                <p>Brainlife is capable of analyzing large number of subjects (>1000) and their derivatives through our meta-job orchestration engine.</p>
+                <p>You can easily handle thousands of tasks submitted by our rule based task orghestration UI.</p>
             </td>
             <td style="padding: 0px; position: relative; left: 50px; top: 10px;">
                 <img src="images/screenshots/apps.png" class="screenshot">
-
             </td>
         </tr>
 
-        <tr onclick="document.location = 'https://brainlife.io/docs/user/started/#visualize-dataset'">
-            <td style="padding: 0px; position: relative; right: 50px; top: 15px;" width="50%">
-                <img src="images/screenshots/apps.png" class="screenshot">
+        <tr onclick-dis="document.location = 'https://brainlife.io/docs/user/started/#visualize-dataset'">
+            <td style="padding: 0px; position: relative; right: 50px; top: 15px;" width="50%" onmouseover="play_video(0)"> 
+                <!--<img src="images/screenshots/apps.png" class="screenshot">-->
+                <video src="videos/visualizers.webm" width="450px" class="video" controls/>
             </td>
             <td style="padding: 0px">
-                <h3><b><i class="fas fa-database"></i> Visualize.</b></h3>
+                <h3><b><i class="fas fa-database"></i> Visualize</b></h3>
                 <p>Brainlife provides variety of visualization tools. Both native (fsleyes, freeview, etc..) and web-based Apps are supported.</p>
             </td>
         </tr>
@@ -164,3 +165,11 @@ transform: translate(30px, 20px);
         </tr>
     </table>
 </div>
+
+<script>
+function play_video(id) {
+    var video = document.getElementsByClassName("video")[id];
+    video.play();
+    video.style.width="600px";
+}
+</script>
