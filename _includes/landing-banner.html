@@ -37,7 +37,7 @@ width: 100px;
 }
 
 .page-header {
-height: 275px;
+height: 250px;
 transition: padding 0.25s linear;
 padding: 2rem 4rem;
 z-index: 0;
@@ -89,20 +89,20 @@ opacity: 1;
 
 <section id="banner" class="page-header">
 
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="762px"
-height="300px" viewBox="0 0 762 500" xml:space="preserve" class="cloud cloud-far">
-
-<defs>
-<linearGradient id="cloudgrad" x1="0%" y1="0%" x2="0%" y2="100%">
-<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.1" />
-<stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
-</linearGradient>
-</defs>
-
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	x="0px" y="0px" width="762px" height="250px" 
+	viewBox="0 0 762 500" xml:space="preserve" class="cloud cloud-far">
+	<defs>
+		<linearGradient id="cloudgrad" x1="0%" y1="0%" x2="0%" y2="100%">
+		<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+		</linearGradient>
+	</defs>
 	<path fill="url(#cloudgrad)" d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106 c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529 C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5 S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715.394,228z"/>
 </svg>
 
-<svg class="cloud cloud-small" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" width="512" height="320" viewBox="0 0 512 300" xml:space="preserve">
+<svg class="cloud cloud-small" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" 
+	x="0" y="0" width="512" height="220" viewBox="0 0 512 200" xml:space="preserve">
 	<defs>
 	<linearGradient id="cloudgrad" x1="0%" y1="0%" x2="0%" y2="100%">
 	<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.1" />
@@ -112,7 +112,7 @@ height="300px" viewBox="0 0 762 500" xml:space="preserve" class="cloud cloud-far
 	<path fill="#FFFFFF" d="M406.1 227.63c-8.23-103.65-144.71-137.8-200.49-49.05 -36.18-20.46-82.33 3.61-85.22 45.9C80.73 229.34 50 263.12 50 304.1c0 44.32 35.93 80.25 80.25 80.25h251.51c44.32 0 80.25-35.93 80.25-80.25C462 268.28 438.52 237.94 406.1 227.63z"/>
 </svg>
 
-<svg class="cloud cloud-mid" width="1200" height="420" viewBox="0 0 230 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg class="cloud cloud-mid" width="1200" height="400" viewBox="0 0 230 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
 	<defs>
 	<linearGradient id="cloudgrad" x1="0%" y1="0%" x2="0%" y2="100%">
 	<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.1" />
@@ -153,7 +153,7 @@ function onscroll() {
 	
 	var bannerClasses = ['page-header'];
 	
-	if (y >= 225) bannerClasses.push('affix');
+	if (y >= 150) bannerClasses.push('affix');
 	if (mainContent.getBoundingClientRect().top <= 0) bannerClasses.push('overscrolled');
 	banner.className = bannerClasses.join(' ');
 	

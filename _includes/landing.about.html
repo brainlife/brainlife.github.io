@@ -26,10 +26,13 @@ color: inherit;
 }
 .headlink img {
 width: 75%;
-transition: transform .5s; /* Animation */
+transition: transform .5s, top .5s; /* Animation */
+position: relative;
+top: 0;
 }
 .headlink:hover img {
-transform: scale(1.3); 
+transform: scale(1.5); 
+top: -20px;
 }
 .clickable-table td {
 cursor: pointer;
@@ -52,6 +55,18 @@ transform: scale(1);
 transform: translate(30px, 20px); 
 }
 
+.centerimage {
+    position: absolute; 
+    top: -80px;  
+    background-color: #ddd; 
+    padding: 25px 20px; 
+    border-radius: 50%; 
+    width: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
 </style>
 
 <br>
@@ -65,111 +80,127 @@ transform: translate(30px, 20px);
             <center>
                 <img src="images/screenshots/apps.png" class="screenshot"/>
                 <h3><b>Apps</b></h3>
-                <p>A software developers can publish their code on github and register them as "Apps" on Brainlife for other users to discover and execute them on their data.</p>
+                <p>Share your code published on github by registering on Brainlife as "Apps" to be discovered and <b>executed</b> on our shared 
+                    cloud computing resources.</p>
             </center>
         </a>
     </td>
     <td width="33%" class="headlink">
         <a href="/docs/user/process/">
             <center>
-                <img src="images/screenshots/resources.png" class="screenshot"/>
+                <img src="images/screenshots/datasets.png" class="screenshot"/>
                 <h3><b>Data</b></h3>
-                <p>Neuroimaging data can be published and shared with other users to be analyzed by Apps on Brainlife.</p>
+                <p>Share your Neuroimaging data with you collaborators or publish it publicaly to *upcycle* your data.
+                    Data can be organized into <b>datatypes</b> to allow interoperability between Apps.
+                </p>
             </center>
         </a>
      </td>
     <td width="33%" class="headlink">
         <a href="/pubs">
             <center>
-                <img src="images/screenshots/pubs.png" class="screenshot"/>
-                <h3><b>Computing Resources</b></h3>
-                <p>Launch Apps on our shared cloud resources, or you can register your computing resources to accelerate selected Apps and share it with other users.</p>
+                <img src="images/screenshots/resources.png" class="screenshot"/>
+                <h3><b>Computing</b></h3>
+                <p>Share your computing resources to run trusted Apps and accelerate your collaborators' research. 
+                    Increase utilization of your resources by sharing it publically.
+                </p>
             </center>
         </a>
     </td>
 </tr>
 </table>
+<br>
+<br>
+<br>
 
 <!--triangle-->
-<center style="font-size: 600%; position: relative; top: 50px; color: white;"><i class="fas fa-caret-down"></i></center>
+<div class="colorback lightgrayback" style="position: relative;">
+    <!--<center style="font-size: 600%; position: relative; top: -100px; color: white;"><i class="fas fa-caret-down"></i></center>-->
+    <div class="centerimage">
+        <img src="images/logo.png" style="opacity: 0.8;"/>
+    </div>
+    <center style="padding: 2rem; line-height: 200%;">
+            <h2 style="color: gray; font-size: 150%">How does it work?</h2>
+    </center>
 
-<div class="colorback lightgrayback">
-    <center><img src="images/logo.png" style="width: 30%; opacity: 0.8;"/></center>
-    <table class="layout-table clickable-table">
+    <div>
+        <iframe style="float: left; position: relative; left: -50px;" class="screenshot"
+        width="448" height="252" src="https://www.youtube.com/embed/XDF4b3uW8Gk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3><b><i class="fas fa-shield-alt"></i> Upload Data</b></h3>
+        <p>Your data and analysis will be stored under <a href="/projects">Projects</a>. You can create a project and share it with your collaborators.</p>
+        <p>You can upload your data from your web browser or use <a href="https://brainlife.io/docs/cli/install/">Brainlife CLI</a> for a bulk upload.
+            <a href="https://brainlife.io/docs/user/datatypes/">Datatypes</a> is used to organize and standardize all Brainlife datasets.
+        </p>
+        <!--<pre style="text-align: left; background-color: #eee;">$ bl bids upload /bids/path</pre>-->
+        <!--<p><a href="https://brainlife.io/docs/cli/upload/">more</a></p>-->
+    </div>
+    <br clear="both">
+    <br>
+   
+    <div>
+        <iframe style="float: left; position: relative; left: -50px;" class="screenshot"
+        width="448" height="252" src="https://www.youtube.com/embed/NTNyf1xjNME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3><b><i class="fas fa-paper-plane"></i> Run App</b></h3>
+        <p>See <a href="/apps">Apps</a> for currently registered (public) Apps. To run an App, first create a new <b>process</b> which is 
+            used to store staged input data and generated data derivatives. You will need to <b>archive</b> generated output if you want to 
+            keep your output.
+        </p>
+        <p>You can also use the <b>Execute</b> button under an App detail page to quickly launch the App. 
+            <a href="https://brainlife.io/docs/user/process/">more</a></p>
+    </div>
+    <br clear="both">
+    <br>
 
-        <tr onclick="document.location = 'https://brainlife.io/docs/user/pipeline/'">
-            <td style="padding: 0px; text-align: right;">
-                <h3><b><i class="fas fa-paper-plane"></i> Analyze "Big Data"</b></h3>
-                <p>Brainlife is capable of analyzing large number of subjects (>1000) and their derivatives through our meta-job orchestration engine.</p>
-                <p>You can easily handle thousands of tasks submitted by our rule based task orghestration UI.</p>
-            </td>
-            <td style="padding: 0px; position: relative; left: 50px; top: 10px;">
-                <img src="images/screenshots/apps.png" class="screenshot">
-            </td>
-        </tr>
+    <div>
+        <iframe style="float: left; position: relative; left: -50px;" class="screenshot"
+        width="448" height="252" src="https://www.youtube.com/embed/Ewy3ahCVUzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3><b><i class="fas fa-eye"></i> Bulk Processing</b></h3>
+        <p>Our unique workflow management mechiansm (<a href="https://brainlife.io/docs/user/pipeline/">pipeline</a>) allows you to easily submit and monitor thousands of tasks.</p>
+        <p>Brainlife Apps are modular and each subject are processed independently. This leads to a higher scalability, and Brainlife is ready for <b>Big Data</b>.</p>
+    </div>
+    <br clear="both">
+    <br>
 
-        <tr onclick-dis="document.location = 'https://brainlife.io/docs/user/started/#visualize-dataset'">
-            <td style="padding: 0px; position: relative; right: 50px; top: 15px;" width="50%" onmouseover="play_video(0)"> 
-                <!--<img src="images/screenshots/apps.png" class="screenshot">-->
-                <video src="videos/visualizers.webm" width="450px" class="video" controls/>
-            </td>
-            <td style="padding: 0px">
-                <h3><b><i class="fas fa-database"></i> Visualize</b></h3>
-                <p>Brainlife provides variety of visualization tools. Both native (fsleyes, freeview, etc..) and web-based Apps are supported.</p>
-            </td>
-        </tr>
+    <div style="text-align: right">
+        <iframe style="float: right; position: relative; right: -50px;" class="screenshot"
+        width="448" height="252" src="https://www.youtube.com/embed/H21eKZDJYxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3><b><i class="fas fa-eye"></i> Visualize</b></h3>
+        <p>Each <a href="https://brainlife.io/datatypes">datatype</a> provides a set visualizers. It includes  
+            web based visualizes as well as native UIs (fsleyes, freeview, mrview) that can be streamed to your web browser using our nvidia-docker / vGL mechanism.</p>
+        <p>If you are a developer of a visualization tool, we can make it come alive by allowing ours users to launch your apps on any datasets 
+            hosted on Brainlife. <a href="https://brainlife.io/docs/user/started/#visualize-dataset">more</a></p>
+    </div>
+    <br clear="both">
+    <br>
 
-        <tr onclick="document.location = '/apps'">
-            <td style="padding: 0px; text-align: right;">
-                <h3><b><i class="fas fa-paper-plane"></i> Discover Apps and Analyze</b></h3>
-                <p>Try the Brainlife Apps. Apps are open cloud services. Use the Apps to easily analyze data, monitor progress, visualize your results and share them with other users.</p>
-            </td>
-            <td style="padding: 0px; position: relative; left: 50px; top: 10px;">
-                <img src="images/process.png" class="screenshot">
-                <img src="images/screenshots/tractview.png" class="screenshot secondary" style="width: 50%; position: absolute;right: -40px; bottom: 0px;">
-            </td>
-        </tr>
+    <div style="text-align: right">
+        <div style="float: right; position: relative; right: -50px; width: 448px; height: 252px;">
+            <a class="float: right; position: relative; right: -50px;" 
+                href="https://brainlife.io/docs/user/started/#datasets">
+                <img src="images/screenshots/provenance.png" width="100%" class="screenshot"/>
+            </a>
+        </div>
+        <h3><b><i class="fas fa-project-diagram"></i> Data Provenance</b></h3>
+        <p>Brainlife keeps track of how each dataset is generated. It preserves information such as version of the App, configuration parameters
+            and resource used to generate the dataset.</p> 
+        <p>You can count on Brainlife to make sure your data derivatives will always be reproducible.</p>
+    </div>
+    <br clear="both">
+    <br>
 
-        <!--
-        <tr onclick="document.location = 'https://brainlife.github.io/docs/user/started/#upload-dataset'">
-            <td style="padding: 0px; position: relative; right: 50px; top: 15px;" width="50%">
-                <img src="images/datasets.png" class="screenshot">
-            </td>
-            <td style="padding: 0px">
-                <h3><b><i class="fas fa-database"></i> Upcycle data and code.</b></h3>
-                <p>Upload new data or access available data to implement innovative studies and analyses. Data and Apps are conveniently organized into open or private projects shared among users.</p>
-                <p>Register your code, algorithms and visualization tools as Apps. Increase the impact of your work by letting collaborators or the whole users community easily reuse your research products.</p>
-            </td>
-        </tr>
-        -->
-
-        <tr onclick="document.location = 'https://brainlife.io/docs/user/process/'">
-            <td style="padding: 0px; position: relative; right: 50px; top: 15px;" width="50%">
-                <img src="images/datasets.png" class="screenshot">
-            </td>
-            <td style="padding: 0px">
-                <h3><b><i class="fas fa-database"></i> Provenance</b></h3>
-                <p>Brainlife keeps track of all analysis performed on your data and make sure your outputs are reproducible.</p>
-            </td>
-        </tr>
-
-        <tr onclick="document.location = 'https://brainlife.io/docs/user/publication/'">
-            <td style="padding: 0px; text-align: right;">
-                <h3><b><i class="fas fa-th-large"></i> Publish</b></h3>
-                <p>Publish datasets and data derivaties along with all the  Apps used to generated them using a single DOI. The published data will be archived on our secure tape drives for long term curation.</p>
-                <p>Our publication mechianism allows your collaborators to easily reuse your research products.</p>
-            </td>
-            <td style="padding: 0px; position: relative; left: 50px; top: 15px;">
-                <img src="images/screenshots/publication.png" class="screenshot">
-            </td>
-        </tr>
-    </table>
+    <div style="text-align: right">
+        <div style="float: right; position: relative; right: -50px; width: 448px; height: 252px;">
+            <a class="float: right; position: relative; right: -50px;" 
+                href="https://brainlife.io/docs/user/publication/">
+                <img src="images/screenshots/publication.png" width="100%" class="screenshot"/>
+            </a>
+        </div>
+        <h3><b><i class="fas fa-newspaper"></i> Publish</b></h3>
+        <p>Publish datasets and data derivaties along with all the Apps used to generated them under a single DOI. 
+            The published data will be archived on our secure tape archive for the long term curation.</p>
+        <p>Our publication mechianism allows your collaborators to easily reuse your research products.</p>
+    </div>
+    <br clear="both">
+    <br>
 </div>
 
-<script>
-function play_video(id) {
-    var video = document.getElementsByClassName("video")[id];
-    video.play();
-    video.style.width="600px";
-}
-</script>
