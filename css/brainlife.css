@@ -421,6 +421,7 @@ z-index: 1;
     box-shadow: 0 0 25px rgba(0,0,0,0.2);
     border-radius: 5px;
     border: 5px solid white;
+    margin-bottom: 60px;
 }
 footer.site-footer {
     margin: 0 -9999rem;
