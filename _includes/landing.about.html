@@ -19,7 +19,6 @@ bottom: 0;
 right: 0;
 position: absolute;
 }
-
 .headlink a {
 text-decoration: none;
 color: inherit;
@@ -67,6 +66,22 @@ transform: translate(30px, 20px);
     left: 0;
     right: 0;
 }
+.floatleft {
+    position: relative;
+}
+@media only screen and (max-width: 500px) {
+    .floatleft {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .floatleft {
+        float: left;
+        left: -50px;
+        margin-bottom: 70px;
+    }
+}
 </style>
 
 <br>
@@ -92,7 +107,7 @@ transform: translate(30px, 20px);
                 <p>Share your neuroimaging data publicly or privately. Data on brainlife.io is organized as <b>datatypes</b> to allow interoperability between Apps.</p>
             </center>
         </a>
-     </td>
+    </td>
     <td width="33%" class="headlink">
         <a href="/pubs">
             <center>
@@ -104,6 +119,7 @@ transform: translate(30px, 20px);
     </td>
 </tr>
 </table>
+
 <br>
 <br>
 <br>
@@ -120,7 +136,7 @@ transform: translate(30px, 20px);
     </center>
 
     <div style="clear: both">
-        <iframe style="float: left; position: relative; left: -50px;" class="screenshot"
+        <iframe class="screenshot floatleft"
         width="448" height="252" src="https://www.youtube.com/embed/XDF4b3uW8Gk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h3><b><i class="fas fa-shield-alt"></i> Projects</b></h3>
         <p><a href="/projects">Projects</a> allow you to manage data, processing and results. Share Projects privately with collaborators or publicly with the brainlife.io community.</p>
@@ -131,7 +147,7 @@ transform: translate(30px, 20px);
     </div>
    
     <div style="clear: both">
-        <iframe style="float: left; position: relative; left: -50px;" class="screenshot"
+        <iframe class="screenshot floatleft"
         width="448" height="252" src="https://www.youtube.com/embed/NTNyf1xjNME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h3><b><i class="fas fa-paper-plane"></i> Run App</b></h3>
         <p>See <a href="/apps">Apps</a> for publicly registered brainlife.io Apps. 
@@ -140,7 +156,7 @@ transform: translate(30px, 20px);
     </div>
 
     <div style="clear: both">
-        <iframe style="float: left; position: relative; left: -50px;" class="screenshot"
+        <iframe class="screenshot floatleft"
         width="448" height="252" src="https://www.youtube.com/embed/Ewy3ahCVUzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h3><b><i class="fas fa-eye"></i> Bulk Processing</b></h3>
         <p>Our unique analysis management mechanism (<a href="https://brainlife.io/docs/user/pipeline/">pipeline</a>) allows easy submission and monitoring of thousands of analyses.</p>
@@ -148,16 +164,16 @@ transform: translate(30px, 20px);
     </div>
 
     <div style="clear: both">
-        <iframe style="float: left; position: relative; left: -50px;" class="screenshot"
+        <iframe class="screenshot floatleft"
         width="448" height="252" src="https://www.youtube.com/embed/H21eKZDJYxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h3><b><i class="fas fa-eye"></i> Visualize</b></h3>
         <p>Each <a href="https://brainlife.io/datatypes">datatype</a> provides a set of visualizers for quick quality control. We support both web based and native visualizers, such as fsleyes, freeview, that are streamed directly from our GPU enabled VMs.</p>
-          <p>If you are a developer of a visualization tool, we can make it come alive by allowing users to launch your apps on any dataset
+         <p>If you are a developer of a visualization tool, we can make it come alive by allowing users to launch your apps on any dataset
           hosted on Brainlife. <!--<a href="https://brainlife.io/docs/user/started/#visualize-dataset">more</a>--></p>
     </div>
 
     <div style="clear: both">
-        <div style="float: left; position: relative; left: -50px; width: 448px; height: 252px; margin-bottom: 70px;">
+        <div style="width: 448px; height: 252px; margin-bottom: 70px;" class="floatleft">
             <a class="float: right; position: relative; right: -50px;" 
                 href="https://brainlife.io/docs/user/started/#datasets">
                 <img src="images/screenshots/provenance.png" width="100%" class="screenshot"/>
@@ -170,7 +186,7 @@ transform: translate(30px, 20px);
     </div>
 
     <div style="clear: both">
-        <div style="float: left; position: relative; left: -50px; width: 448px; height: 252px;">
+        <div style="width: 448px; height: 252px;" class="floatleft">
             <a class="float: right; position: relative; right: -50px;" 
                 href="https://brainlife.io/docs/user/publication/">
                 <img src="images/screenshots/publication.png" width="100%" class="screenshot"/>
