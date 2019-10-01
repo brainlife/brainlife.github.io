@@ -5,6 +5,7 @@
   "main": "collaborators.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "apt install ruby-dev && bundle install",
     "dev": "bundle exec jekyll serve",
     "deploy": "bundle exec jekyll build && rsync -av . hayashis@test.brainlife.io:/usr/local/home",
     "deploy-prod": "bundle exec jekyll build && rsync -av . hayashis@brainlife.io:/usr/local/home"
