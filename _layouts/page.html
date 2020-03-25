@@ -1,5 +1,35 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-us">
+{% include head.html %}
+<body>
+	<div class="page-header">
+		<h1><a href="/">{{ site.title }}</a></h1>
+		{% include plablogo.html %}
+	</div>
 
-{{ content }}
+    <section class="app-header" style="background-image: url('{{ page.background }}')">
+		<br>
+		<div class="main-content">
+			{% if page.starturl %} 
+				<a href="{{page.starturl}}" class="btn btn-lg btn-primary animated bounceIn" style="float: right; box-shadow: 0 0 10px #444; ">Start</a>
+			{% endif %}
+			<h1>{{ page.title }}</h1>
+			{% if page.subtitle %} 
+				<h2 style="opacity: 0.9;">{{page.subtitle}}</h2>
+			{% endif %}
+			<br>
+		</div>
+	</section>
+
+	<section class="main-content">
+        {{ content }}
+		{% if page.starturl %} 
+		<center style="margin: 75px 0px;">
+			<a href="{{page.starturl}}" class="btn btn-lg btn-primary">Start</a>
+		</center>
+		{% endif %} 
+		{% include page-footer.html %}
+    	</section>
+        {% include analytics.html %}
+</body>
+</html>
