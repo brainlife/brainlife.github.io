@@ -289,6 +289,7 @@ background-image: url("/images/wallhaven-338257_2560x1080.jpg");
 padding: 1rem 2rem;
 color: white;
 margin-top: 50px;
+min-height: 175px;
 }
 .app-header .main-content h1 { 
 font-size: 40px; 
