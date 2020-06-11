@@ -6,7 +6,7 @@ headerimg: "/images/integration-1777537_1920.jpg"
 ---
 
 <p>
-brainlife.io is actively developed by a group of dedicated neuroscientists and professional software engineers mostly from
+brainlife.io is actively developed by a group of dedicated neuroscientists and professional software engineers main from
 Pestillilab, led by Professor Franco Pestilli at University of Texas.
 </p>
 <br>
@@ -119,9 +119,9 @@ Pestillilab, led by Professor Franco Pestilli at University of Texas.
     </tr>
     <tr>
         <td width="40%" class="contact">
-            <img src="images/avatar/person.png"><br>
-            <a href="mailto:smcgavin@iu.edu">Giulia Berto</a><br>
-            <span class="title">Graduate Student</span>
+            <img src="images/avatar/sandra.jpg"><br>
+            <a href="mailto:sandrahanekamp@gmail.com">Sandra Hanekamp</a><br>
+            <span class="title">Research Scientist</span>
         </td>
         <td width="60%">
             BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -171,10 +171,10 @@ Pestillilab, led by Professor Franco Pestilli at University of Texas.
     </table>
 </div>
 
-<div class="colorback" style="background-color: #151515">
+<div class="colorback" style="background-color: #333">
     <br>
     <center>
-        <h1>Close Collaborators</h1>
+        <h1>Collaborators</h1>
         <br>
         <p>The following collaborators has contributed to brainlife.io</p>
     </center>
@@ -194,9 +194,30 @@ Pestillilab, led by Professor Franco Pestilli at University of Texas.
     </tr>
     <tr>
         <td width="40%" class="contact">
+            <img src="images/avatar/person.png"><br>
+            <a href="mailto:gberto@fbk.eu">Giulia Berto</a><br>
+            <span class="title">Graduate Student</span>
+        </td>
+        <td width="60%">
+            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </td>
+    </tr>
+    <tr>
+        <td width="40%" class="contact">
             <img src="images/avatar/shiloh.jpg"><br>
             <a href="https://www.linkedin.com/in/shiloh-cooper-31767b108/">Shiloh Cooper</a><br>
             <span class="title">Neuroscience Student</span>
+        </td>
+        <td width="60%">
+            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </td>
+    </tr>
+    <tr>
+        <td width="40%" class="contact">
+            <img src="images/avatar/cesar.jpg"><br>
+            <a href="https://www.linkedin.com/in/cesar-f-caiafa-8b4605/?originalSubdomain=ar">Cesar Caiafa</a><br>
+            <span class="title">Researcher and Professor</span><br>
+            <span class="location">University of Buenos Aires</span><br>
         </td>
         <td width="60%">
             BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
