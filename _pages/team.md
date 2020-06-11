@@ -6,15 +6,11 @@ headerimg: "/images/integration-1777537_1920.jpg"
 ---
 
 <p>
-brainlife.io is actively developed by a group of dedicated neuroscientists and professional software engineers main from
-Pestillilab, led by Professor Franco Pestilli at University of Texas.
+brainlife.io is actively developed by a group of dedicated neuroscientists and professional software engineers.
 </p>
-<br>
-<br>
 <p>
     TODO - group photo?
 </p>
-<br>
 <br>
 
 <div class="colorback" style="background-color: #2693ff">
@@ -171,56 +167,50 @@ Pestillilab, led by Professor Franco Pestilli at University of Texas.
     </table>
 </div>
 
-<div class="colorback" style="background-color: #333">
+<div>
+    <br>
+    <br>
     <br>
     <center>
         <h1>Collaborators</h1>
         <br>
-        <p>The following collaborators has contributed to brainlife.io</p>
+        <p>Many thanks to our collaborators who have contributed to brainlife.io</p>
     </center>
     <br>
 
     <table class="layout-table">
     <tr>
-        <td width="40%" class="contact">
+        <td width="33%" class="contact">
             <img src="images/avatar/paolo.jpg"><br>
             <a href="">Paolo Avesani</a><br>
             <span class="title">Neuroinformatics Lab Director</span><br>
             <span class="location">Fondazione Bruno Kessler, University of Trento</span><br>
         </td>
-        <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </td>
-    </tr>
-    <tr>
-        <td width="40%" class="contact">
+        <td width="33%" class="contact">
             <img src="images/avatar/person.png"><br>
             <a href="mailto:gberto@fbk.eu">Giulia Berto</a><br>
-            <span class="title">Graduate Student</span>
+            <span class="title">Graduate Student</span><br>
+            <span class="location">Fondazione Bruno Kessler, University of Trento</span><br>
         </td>
-        <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </td>
-    </tr>
-    <tr>
-        <td width="40%" class="contact">
+        <td width="33%" class="contact">
             <img src="images/avatar/shiloh.jpg"><br>
             <a href="https://www.linkedin.com/in/shiloh-cooper-31767b108/">Shiloh Cooper</a><br>
-            <span class="title">Neuroscience Student</span>
-        </td>
-        <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <span class="title">PHD Candidate</span><br>
+            <span class="location">Northwestern University</span><br>
         </td>
     </tr>
     <tr>
-        <td width="40%" class="contact">
+        <td width="33%" class="contact">
             <img src="images/avatar/cesar.jpg"><br>
             <a href="https://www.linkedin.com/in/cesar-f-caiafa-8b4605/?originalSubdomain=ar">Cesar Caiafa</a><br>
             <span class="title">Researcher and Professor</span><br>
             <span class="location">University of Buenos Aires</span><br>
         </td>
-        <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <td width="33%" class="contact">
+            <img src="images/avatar/aman.jpg"><br>
+            <a href="aman.arya524@gmail.com">Aman Arya</a><br>
+            <span class="title">Software Engineer</span>
+            <span class="location">Amazon Inc, Seattle WA</span><br>
         </td>
     </tr>
     </table>
