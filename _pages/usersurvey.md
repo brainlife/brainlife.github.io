@@ -2,6 +2,7 @@
 title: "Brainlife.io User Survey"
 layout: page
 permalink: /usersurvey
+headerimg: "/images/gears-1311171_1920.jpg"
 ---
 
 We are inviting all registered brainlife.io users to take a survey about their experience with the platform. The survey is anonymous, unless users choose to share their contact information.
