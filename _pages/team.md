@@ -184,13 +184,13 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <img src="images/avatar/paolo.jpg"><br>
             <a href="">Paolo Avesani</a><br>
             <span class="title">Neuroinformatics Lab Director</span><br>
-            <span class="location">Fondazione Bruno Kessler, University of Trento</span><br>
+            <span class="location">FBK, University of Trento</span><br>
         </td>
         <td width="33%" class="contact">
             <img src="images/avatar/person.png"><br>
             <a href="mailto:gberto@fbk.eu">Giulia Berto</a><br>
             <span class="title">Graduate Student</span><br>
-            <span class="location">Fondazione Bruno Kessler, University of Trento</span><br>
+            <span class="location">FBK, University of Trento</span><br>
         </td>
         <td width="33%" class="contact">
             <img src="images/avatar/shiloh.jpg"><br>
@@ -209,7 +209,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
         <td width="33%" class="contact">
             <img src="images/avatar/aman.jpg"><br>
             <a href="aman.arya524@gmail.com">Aman Arya</a><br>
-            <span class="title">Software Engineer</span>
+            <span class="title">Software Engineer</span><br>
             <span class="location">Amazon Inc, Seattle WA</span><br>
         </td>
     </tr>
