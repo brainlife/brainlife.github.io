@@ -9,7 +9,7 @@ headerimg: "/images/integration-1777537_1920.jpg"
 brainlife.io is actively developed by a group of dedicated neuroscientists and professional software engineers.
 </p>
 <p>
-    TODO - group photo?
+    <img src="/images/team.jpg" width="100%" class="team"/>
 </p>
 <br>
 
