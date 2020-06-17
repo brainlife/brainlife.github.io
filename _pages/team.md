@@ -97,7 +97,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
         <td width="40%" class="contact">
             <img src="images/avatar/josh.jpg"><br>
             <a href="mailto:joshua.faskowitz@gmail.com">Josh Faskowitz</a><br>
-            <span class="title">Graduate Student</span>
+            <span class="title">Graduate Student</span><br>
             <span class="location">Indiana University</span>
         </td>
         <td width="60%">
@@ -128,6 +128,17 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </td>
     </tr>
+    <tr>
+        <td width="40%" class="contact">
+            <img src="images/avatar/giulia.jpg"><br>
+            <a href="mailto:gberto@fbk.eu">Giulia Berto</a><br>
+            <span class="title">Graduate Student</span><br>
+            <span class="location">FBK, University of Trento</span><br>
+        </td>
+        <td width="60%">
+            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </td>
+    </tr>
     </table>
 </div>
 
@@ -144,16 +155,16 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
 
     <table class="layout-table">
     <tr>
-        <td width="33%" class="contact">
+         <td width="33%" class="contact">
+            <img src="images/avatar/yarik.jpg"><br>
+            <a href="https://www.linkedin.com/in/yarik/">Yaroslav O. Halchenko</a><br>
+            <span class="title">Research Associate Professor</span><br>
+            <span class="location">Dartmouth College</span><br>
+        </td>
+       <td width="33%" class="contact">
             <img src="images/avatar/paolo.jpg"><br>
             <a href="">Paolo Avesani</a><br>
             <span class="title">Neuroinformatics Lab Director</span><br>
-            <span class="location">FBK, University of Trento</span><br>
-        </td>
-        <td width="33%" class="contact">
-            <img src="images/avatar/person.png"><br>
-            <a href="mailto:gberto@fbk.eu">Giulia Berto</a><br>
-            <span class="title">Graduate Student</span><br>
             <span class="location">FBK, University of Trento</span><br>
         </td>
         <td width="33%" class="contact">
@@ -169,12 +180,6 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <a href="https://www.linkedin.com/in/cesar-f-caiafa-8b4605/?originalSubdomain=ar">Cesar Caiafa</a><br>
             <span class="title">Researcher and Professor</span><br>
             <span class="location">University of Buenos Aires</span><br>
-        </td>
-        <td width="33%" class="contact">
-            <img src="images/avatar/aman.jpg"><br>
-            <a href="aman.arya524@gmail.com">Aman Arya</a><br>
-            <span class="title">Software Engineer</span><br>
-            <span class="location">Amazon Inc, Seattle WA</span><br>
         </td>
     </tr>
     </table>
@@ -215,6 +220,17 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <img src="images/avatar/steven340.jpg"><br>
             <a href="mailto:stevengeeky@gmail.com">Steven O'Riley</a><br>
             <span class="title">Software Engineer</span>
+        </td>
+        <td width="60%">
+            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </td>
+    </tr>
+    <tr>
+        <td width="40%" class="contact">
+            <img src="images/avatar/aman.jpg"><br>
+            <a href="aman.arya524@gmail.com">Aman Arya</a><br>
+            <span class="title">Software Engineer</span><br>
+            <span class="location">Amazon Inc, Seattle WA</span><br>
         </td>
         <td width="60%">
             BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
