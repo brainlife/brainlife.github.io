@@ -130,7 +130,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
     </tr>
     <tr>
         <td width="40%" class="contact">
-            <img src="images/avatar/giulia.jpg"><br>
+            <img src="images/avatar/giulia3.png"><br>
             <a href="mailto:gberto@fbk.eu">Giulia Berto</a><br>
             <span class="title">Graduate Student</span><br>
             <span class="location">FBK, University of Trento</span><br>
@@ -155,26 +155,32 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
 
     <table class="layout-table">
     <tr>
-         <td width="33%" class="contact">
+       <td width="33%" class="contact">
             <img src="images/avatar/yarik.jpg"><br>
             <a href="https://www.linkedin.com/in/yarik/">Yaroslav O. Halchenko</a><br>
             <span class="title">Research Associate Professor</span><br>
             <span class="location">Dartmouth College</span><br>
-        </td>
+       </td>
+       <td width="33%" class="contact">
+            <img src="images/avatar/michael.jpg"><br>
+            <a href="https://www.linkedin.com/in/mhanke/">Michael Hanke</a><br>
+            <span class="title">Group Lead</span><br>
+            <span class="location">Forschungszentrum Jülich</span><br>
+       </td>
        <td width="33%" class="contact">
             <img src="images/avatar/paolo.jpg"><br>
             <a href="">Paolo Avesani</a><br>
             <span class="title">Neuroinformatics Lab Director</span><br>
             <span class="location">FBK, University of Trento</span><br>
         </td>
+    </tr>
+    <tr>
         <td width="33%" class="contact">
             <img src="images/avatar/shiloh.jpg"><br>
             <a href="https://www.linkedin.com/in/shiloh-cooper-31767b108/">Shiloh Cooper</a><br>
             <span class="title">PHD Candidate</span><br>
             <span class="location">Northwestern University</span><br>
         </td>
-    </tr>
-    <tr>
         <td width="33%" class="contact">
             <img src="images/avatar/cesar.jpg"><br>
             <a href="https://www.linkedin.com/in/cesar-f-caiafa-8b4605/?originalSubdomain=ar">Cesar Caiafa</a><br>
