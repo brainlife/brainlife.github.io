@@ -76,21 +76,26 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/sophia_cropped_750x750.jpg"><br>
-            <a href="mailto:svincibo@indiana.edu">Sophia Vinci-Booher</a><br>
-            <span class="title">Postdoctoral Researcher</span>
+            <a href="https://github.com/svincibo">Sophia Vinci-Booher</a><br>
+            <span class="title">Postdoctoral Fellow</span><br>
+            <span class="location">Indiana University</span><br>
+            <a href="/assets/cv/SophiaVinciBooher_CV_20200619.pdf"><i class="fas fa-id-card"></i></a>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Sophia joined the brainlife.io team in Spring 2020 as a Postdoctoral Fellow. Her research focuses on understanding how the brain changes and reorganizes throughout the lifespan. She is particularly interested in how specific sensorimotor training experiences contribute to brain changes and the relationship of these brain changes to learning. She assesses brain changes at both functional and structural levels using functional and diffusion MRI and she assesses learning through a variety of behavioral measurements. She currently uses brainlife.io to process developmental diffusion MRI data and has written several related apps for the brainlife.io platform. She enjoys running and yoga, hiking and foraging for wild edibles, and good tea and book clubs.  She also has the best husband in the world.
         </td>
     </tr>
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/josiah.jpg"><br>
-            <a href="mailto:jkleong@indiana.edu">Josiah Leong</a><br>
-            <span class="title">Postdoctoral Researcher</span>
+            <a href="https://fullstackneuro.io/">Josiah Leong</a><br>
+            <span class="title">Assistant Professor</span><br>
+            <span class="location">University of Arkansas</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p>
+                Josiah was a postdoctoral researcher on the brainlife.io team and recently started his own lab. He studies structural and functional connections in the human brain that link emotions to perception and choice. He uses brainlife.io to automate targeted white-matter characterizations in large datasets, and he is building a brainlife.io pipeline to make task-based functional MRI analyses more accessible and reproducible.
+            </p>
         </td>
     </tr>
     <tr>
@@ -104,7 +109,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <p>
     Josh conducts research at the intersection of neuro and network science. On brainlife.io, he has published apps related to processing functional MRI data -- in order to obtain networks of many shapes and sizes. In addition to networks, Josh enjoys hipster coffee, RollerCoaster Tycoon 2, and rooting for Tottenham Hotspur. </p>
             <p>
-            <a href="https://faskowit.github.io/" style="font-size: 150%;"><i class="fab fa-github"></i></a>
+                <a href="https://faskowit.github.io/"><i class="fab fa-github"></i></a>
             </p>
         </td>
     </tr>
@@ -137,6 +142,17 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
         </td>
         <td width="60%">
             BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </td>
+    </tr>
+    <tr>
+        <td width="40%" class="contact">
+            <img src="images/avatar/david.jpg"><br>
+            <a href="davhunt@iu.edu">David Hunt</a><br>
+            <span class="title">Nueroscience Gradate</span><br>
+            <span class="location">Indiana University</span><br>
+        </td>
+        <td width="60%">
+            David is an IU neuroscience and mathematics graduate whose interests include vision science and visual-field mapping, fMRI, white matter, and programming. He has been helping to develop apps for Brainlife since late 2018 and enjoys coding, learning and experiencing new things, as well as playing with his dog and taking naps, and he hopes to pursue a PhD in neuroscience.
         </td>
     </tr>
     </table>
