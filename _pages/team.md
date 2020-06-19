@@ -76,13 +76,19 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/sophia_cropped_750x750.jpg"><br>
-            <a href="https://github.com/svincibo">Sophia Vinci-Booher</a><br>
-            <span class="title">Postdoctoral Fellow</span><br>
+            <a href="https://github.com/svincibo">Sophia Vinci-Booher</a>
+            <br>
+            <span class="title">Postdoctoral Fellow</span> 
+            <br>
             <span class="location">Indiana University</span><br>
-            <a href="/assets/cv/SophiaVinciBooher_CV_20200619.pdf"><i class="fas fa-id-card"></i></a>
         </td>
-        <td width="60%">
-            Sophia joined the brainlife.io team in Spring 2020 as a Postdoctoral Fellow. Her research focuses on understanding how the brain changes and reorganizes throughout the lifespan. She is particularly interested in how specific sensorimotor training experiences contribute to brain changes and the relationship of these brain changes to learning. She assesses brain changes at both functional and structural levels using functional and diffusion MRI and she assesses learning through a variety of behavioral measurements. She currently uses brainlife.io to process developmental diffusion MRI data and has written several related apps for the brainlife.io platform. She enjoys running and yoga, hiking and foraging for wild edibles, and good tea and book clubs.  She also has the best husband in the world.
+        <td width="60%" style="position: relative;">
+            <p>
+            Sophia joined the brainlife.io team in Spring 2020 as a Postdoctoral Fellow. Her research focuses on understanding how the brain changes and reorganizes throughout the lifespan. She currently uses brainlife.io to process developmental diffusion MRI data and has written several related apps for the brainlife.io platform. She enjoys running and yoga, hiking and foraging for wild edibles, and good tea and book clubs. She also has the best husband in the world.
+            </p>
+            <a href="https://github.com/svincibo"><i class="fab fa-github"></i></a>&nbsp;
+            <a href="https://github.com/brainlife/plab/raw/master/img/SophiaVinciBooher_CV_20200619.pdf"><i class="fas fa-id-card"></i></a>&nbsp;
+
         </td>
     </tr>
     <tr>
@@ -108,9 +114,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
         <td width="60%">
             <p>
     Josh conducts research at the intersection of neuro and network science. On brainlife.io, he has published apps related to processing functional MRI data -- in order to obtain networks of many shapes and sizes. In addition to networks, Josh enjoys hipster coffee, RollerCoaster Tycoon 2, and rooting for Tottenham Hotspur. </p>
-            <p>
-                <a href="https://faskowit.github.io/"><i class="fab fa-github"></i></a>
-            </p>
+            <a href="https://faskowit.github.io/"><i class="fab fa-github"></i></a>
         </td>
     </tr>
     <tr>
