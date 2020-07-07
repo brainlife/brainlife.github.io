@@ -30,7 +30,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Project Director</span>
         </td>
         <td width="60%">
-            Franco is an associate professor at the department of psychology at UT Austin. Franco's work spans multiple fields of neuroscience with contributions to methods for mapping brain networks, understanding human brain neuroanatomy and connectivity, as well as to clarifying fundamental aspects of human visual perception and cognition. As the PI of brainlife.io, he strives to democratize neuroimaging data-analysis and accelerate scientific disovery by promoting reproducibility, and cloud computing.
+            Franco is the Director and Founder of brailife.io. His passion is to democratize psychological and brain science. Associate Professor in the Department of Psychology at the University of Texas, Austin. Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. He has received Postdoctoral training at Columbia and Stanford University and held faculty positions at Indiana University. Franco's work spans multiple fields of psychology and neuroscience with contributions to understanding human behavior, brain function, and structure. He is a Fellow of the Association for Psychological Science and Psychonomics Society. Franco received awards such as a Microsoft Investigator Fellowship and Janet Taylor Spence Award. His work has been funded by the National Science Foundation, the National Institute of Health, the U.S. Department of Defense, the Association for Psychological Science, and Microsoft Research. He is Editorial Board member of Springer:Nature’s Scientific Data and Scientific Reports, as well as, Brain Structure and Function.
         </td>
     </tr>
     <tr>
@@ -40,7 +40,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            Soichi works as a senior software engineer / techincal lead for brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics and worked for Acxiom as a software engineer providing business inteligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for Open Science Grid and then joined brainlife.io team in 2017.
+            Soichi is senior software engineer and technical lead of brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics from the University of Arkansas and worked for Acxiom as a software engineer providing business inteligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for Open Science Grid and joined the brainlife.io team in 2017.
         </td>
     </tr>
     <tr>
@@ -50,7 +50,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Brent is a Ph.D. candidate in Psychological and Brain Sciences at Indiana University. His research focusses on methods for big data neuroscience and machine learning. His scientific interests are understanding the human brain and behavior relationships across the lifespan. Brent developed several brainlife.io Apps that allow users to process diffusion-weighted magnetic resonance imaging, perform tractography, and build structural brain networks. Brent likes snakes and heavy metal music.
         </td>
     </tr>
     <tr>
@@ -60,35 +60,29 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            Dan is a psychology and Neuroscience Ph.D. candidate at IU Bloomington. After working at University of Cincinnati, Duke University, and North Carolina State University, he joined Franco's lab in 2015 focusing on his anatomical white matter segmentation algorithm. Dan has since contributed to many brainlife.io Apps and contributed to the developement of brainlife.io platform. He is a strong advocate for graduate students and open science. 
+            Dan is a Psychology and Neuroscience Ph.D. candidate at Indiana University. After working at University of Cincinnati, Duke University, and North Carolina State University, he joined Franco's laboratory in 2015 focusing on methods for white matter anatomy characterization and automated segmentation. Dan has since contributed multiple Apps to brainlife.io to advance several of his scientific projects. He is passionate about student rights and an open science advocate. 
         </td>
     </tr>
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/brad.jpg"><br>
-            <a href="mailto:bacaron@imail.iu.edu">Bradley Caron</a><br>
+            <a href="mailto:bacaron@iu.edu">Bradley Caron</a><br>
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Brad is Ph.D. candidate in Vision Science and Neuroscience at Indiana University. His research focusses on the integration of multiple neuroimaging data modalities using machine learning to understand sports concussion and clinical vision science. Brad developed multiple Apps for brainlife.io as part of his research projects. He is passionate about science, sports, and civil rights. 
         </td>
     </tr>
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/sophia_cropped_750x750.jpg"><br>
-            <a href="https://github.com/svincibo">Sophia Vinci-Booher</a>
-            <br>
+            <a href="https://github.com/svincibo">Sophia Vinci-Booher</a><br>
             <span class="title">Postdoctoral Fellow</span> 
-            <br>
-            <span class="location">Indiana University</span><br>
         </td>
         <td width="60%" style="position: relative;">
             <p>
-            Sophia joined the brainlife.io team in Spring 2020 as a Postdoctoral Fellow. Her research focuses on understanding how the brain changes and reorganizes throughout the lifespan. She currently uses brainlife.io to process developmental diffusion MRI data and has written several related apps for the brainlife.io platform. She enjoys running and yoga, hiking and foraging for wild edibles, and good tea and book clubs. She also has the best husband in the world.
+            Sophia is Postdoctoral Fellow in the Pestilli lab. She holds a Ph.D. from Indiana University. Her research focuses on understanding brain plasticity and changes across the lifespan. Sophia has developed Apps for brainlife.io to advance her scientific projects. She enjoys foraging for wild edibles, running, hiking, yoga, and good tea during a book club.
             </p>
-            <a href="https://github.com/svincibo"><i class="fab fa-github"></i></a>&nbsp;
-            <a href="https://github.com/brainlife/plab/raw/master/img/SophiaVinciBooher_CV_20200619.pdf"><i class="fas fa-id-card"></i></a>&nbsp;
-
         </td>
     </tr>
     <tr>
@@ -96,11 +90,10 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <img src="images/avatar/josiah.jpg"><br>
             <a href="https://fullstackneuro.io/">Josiah Leong</a><br>
             <span class="title">Assistant Professor</span><br>
-            <span class="location">University of Arkansas</span>
         </td>
         <td width="60%">
             <p>
-                Josiah was a postdoctoral researcher on the brainlife.io team and recently started his own lab. He studies structural and functional connections in the human brain that link emotions to perception and choice. He uses brainlife.io to automate targeted white-matter characterizations in large datasets, and he is building a brainlife.io pipeline to make task-based functional MRI analyses more accessible and reproducible.
+        Josiah is Assistant Professor in the Department of Psychology at the University of Arkansas. He holds a Ph.D. from Stanford University and was Postdoctoral researcher at Indiana University. He studies structural and functional connections in the human brain that link emotions to perception and choice. He uses brainlife.io to automate targeted white-matter characterizations in large datasets, and he is building a brainlife.io pipeline to make task-based functional MRI analyses more accessible and reproducible.
             </p>
         </td>
     </tr>
@@ -109,12 +102,10 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <img src="images/avatar/josh.jpg"><br>
             <a href="mailto:joshua.faskowitz@gmail.com">Josh Faskowitz</a><br>
             <span class="title">Graduate Student</span><br>
-            <span class="location">Indiana University</span>
         </td>
         <td width="60%">
             <p>
-    Josh conducts research at the intersection of neuro and network science. On brainlife.io, he has published apps related to processing functional MRI data -- in order to obtain networks of many shapes and sizes. In addition to networks, Josh enjoys hipster coffee, RollerCoaster Tycoon 2, and rooting for Tottenham Hotspur. </p>
-            <a href="https://faskowit.github.io/"><i class="fab fa-github"></i></a>
+    Josh is Ph.D. candidate at Indiana University. He conducts research at the intersection of neuroimaging and network science. Josh has contributed to brainlife.io Apps to process functional and structural neuroimaging data to build brain networks. Josh enjoys hipster coffee, RollerCoaster Tycoon 2, and rooting for Tottenham Hotspur. </p>
         </td>
     </tr>
     <tr>
@@ -124,7 +115,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Communications and Outreach</span>
         </td>
         <td width="60%">
-            Stephanie joined in 2019 to lead the communication and outreach activities for brainlife.io. She develops content for brainlife.io newsletters, blogs, video, and engage with new members from the brainlife community. Stephanie has a bachelor's degree in journalism from Michigan State University. She also works for IUNI/CADRE project and prior to joining our group, she worked as an automotive journalist for trade publication Automotive News and as a social media and marketing manager for a Bloomington-area startup. She spends her free time playing roller derby and forcing people to look at pictures of her dog.
+            Stephanie is the brainlife.io outreach and communication manager. She develops content for brainlife.io newsletters, blogs, video, and engages with the brainlife.io community members. Stephanie has a bachelor's degree in journalism from Michigan State University. She works for the Indiana Network Science Institute and the Collaborative Archive & Data Research Environment project. Prior to joining brainlife.io, Stephanie worked as an automotive journalist for trade publication Automotive News and as a social media and marketing manager for a Bloomington-area startup. She spends her free time playing roller derby and forcing people to look at pictures of her dog.
         </td>
     </tr>
     <tr>
@@ -134,29 +125,27 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Research Scientist</span>
         </td>
         <td width="60%">
-Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in Clinical Neuropsychology, and PhD degree in Cognitive and Perceptual Neuroscience from the University of Groningen, The Netherlands. The aim of her doctoral project was to unravel mechanisms of neurodegeneration and neuroplasticity in patients with glaucoma using diffusion weighted MRI. As a postdoctoral fellow in the Simonyan lab, her current work focuses on brain structural networks in focal dystonias, such as spasmodic dysphonia and writer's cramp. Sandra is motivated to pursue an academic career and use neuroimaging to understand the etiology and diagnosis of neurological disorders.  
+Sandra is Postdoctoral Researcher in the Pestilli laboratory. She holds a B.A. in Neurolinguistics, an M.A. in Clinical Neuropsychology, and a Ph.D. in Cognitive and Perceptual Neuroscience from the University of Groningen. Before joining the team Sandra worked as Postdoctoral fellow at Massachusetts Medical General Hospital and Harvard Medical School. Sandra is motivated to pursue an academic career and use neuroimaging to understand the etiology and advance methods to improve the diagnose of vision and neurological disorders.
         </td>
     </tr>
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/giulia3.png"><br>
             <a href="https://github.com/giulia-berto">Giulia Bertò</a><br>
-            <span class="title">Research Scientist</span><br>
-            <span class="location">FBK, University of Trento</span><br>
+            <span class="title">Data and Application Engineer</span><br>
         </td>
         <td width="60%">
-        Giulia has recently obtained a PhD from the University of Trento, Italy, focused on Machine Learning methods for Neuroscience, in particular for white matter bundle segmentation. Her research mainly regards neuroimaging data analysis for brain connectivity characterization. She is devoted to open science and has been contributing to the brainlife.io project by developing apps and workflows for diffusion MRI data analysis. Besides science and technology, Giulia enjoys hiking in the mountains, traveling, and cooking.
+        Giulia is a Data and Application Engineer. She holds a Ph.D. from the University of Trento. Her work focuses on the application of Machine Learning methods to Neuroscience data. She is devoted to Open Science and contributes to brainlife.io by developing Apps for diffusion MRI data analysis. Giulia enjoys hiking, traveling, and cooking.
         </td>
     </tr>
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/david.jpg"><br>
             <a href="davhunt@iu.edu">David Hunt</a><br>
-            <span class="title">Nueroscience Gradate</span><br>
-            <span class="location">Indiana University</span><br>
+            <span class="title">Research Assistant</span><br>
         </td>
         <td width="60%">
-            David is an IU neuroscience and mathematics graduate whose interests include vision science and visual-field mapping, fMRI, white matter, and programming. He has been helping to develop apps for Brainlife since late 2018 and enjoys coding, learning and experiencing new things, as well as playing with his dog and taking naps, and he hopes to pursue a PhD in neuroscience.
+            David holds a B.A. in Neuroscience and Mathematics from Indiana University. He has developed brainlife.io Apps that allow processing of functional neuroimaging data with application to vision science. He enjoys coding, learning new things, playing with his dog, and taking naps. He plans to pursue a Ph.D. in Neuroscience.
         </td>
     </tr>
     </table>
@@ -169,7 +158,7 @@ Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in 
     <center>
         <h1>Collaborators</h1>
         <br>
-        <p>Many thanks to our collaborators who have contributed to brainlife.io</p>
+        <p>Many thanks to all brainlife.io collaborators!</p>
     </center>
     <br>
 
@@ -198,13 +187,13 @@ Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in 
         <td width="33%" class="contact">
             <img src="images/avatar/shiloh.jpg"><br>
             <a href="https://www.linkedin.com/in/shiloh-cooper-31767b108/">Shiloh Cooper</a><br>
-            <span class="title">PHD Candidate</span><br>
+            <span class="title">Graduate student</span><br>
             <span class="location">Northwestern University</span><br>
         </td>
         <td width="33%" class="contact">
             <img src="images/avatar/cesar.jpg"><br>
             <a href="https://www.linkedin.com/in/cesar-f-caiafa-8b4605/?originalSubdomain=ar">Cesar Caiafa</a><br>
-            <span class="title">Researcher and Professor</span><br>
+            <span class="title">Researcher and Assistant Professor</span><br>
             <span class="location">University of Buenos Aires</span><br>
         </td>
     </tr>
@@ -228,7 +217,7 @@ Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in 
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            Lindsey was a Ph.D. student at IU Psychological and Brainsciences who implemented many of the early brainlife.io Apps and helped us bootstrap our project by using brainlife for her Ph.D. thesis. She was the key trailbrazer for brainlife.io functionalities and helped us ran large number of jobs through brainlife.io using our pipeline submission mechanism. She also contributed to many design and architectural decisions made early in our project.
+            Lindsey is a Ph.D. candidate at Indiana University. She implemented many of the early brainlife.io Apps as part of her research projects in the Pestilli Laboratory. Lindsey is passionate about Machine-LEarning, 3D shape analysis, and 3D-printing technology.
         </td>
     </tr>
     <tr>
@@ -238,7 +227,7 @@ Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in 
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            Kate was a software engineer at the Northwestern university who joined brainlife.io team in 2017 to help develop various Apps; most notably the HCP pipeline Apps. She was one of the first external collaborator and allowed us to expand our platform to other members of the neuroimaging community. She left brainlife.io to join Radiologics to lead the integration of cloud-based data processing and storage with the XNAT platform.
+            Kate is a support and development software engineer. She contributed several brainlife.io Apps related to the Human Connectome Project standard processing pipeline. Kate currently works for Radiologics.
         </td>
     </tr>
     <tr>
@@ -248,7 +237,7 @@ Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in 
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            Steven was by far the most gifted highschool gradudate that we had a privledge to work with. After joining our lab through Jetstream REU program, Steven contributed to the development of brainlife.io platform in the spring and summer of 2018. He helped us with our CLI tools, and implement various functionalities within the web UI. His inteligence and self-proclaimed "geeky"-ness is grealy missed to this day.
+            Steven holds a B.A. in Computer Science from Indiana University. He joined the brainlife.io as a high school student and contributed to the development of brainlife.io platform functionality. Steve refers to himself as a "geek." 
         </td>
     </tr>
     <tr>
@@ -259,7 +248,7 @@ Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in 
             <span class="location">Amazon Inc, Seattle WA</span><br>
         </td>
         <td width="60%">
-            Aman worked for brainlife.io project during the summer of 2018 through Jetstream REU program. He helped us with implementing several dipy-workflow and AFQ segmentation Apps. He brought a lot of athletic energy into our lab and we greatly miss him.
+            Aman holds a B.A. in Computer Science from the University of Washington. He contributed multiple brainlife.io Apps integrating DIPY and brainlife.io. He loves coding and likes to take breaks by performing as many push-ups as he can.  
         </td>
     </tr>
     </table>
