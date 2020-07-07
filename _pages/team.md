@@ -40,7 +40,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            Soichi works as a senior software engineer / techincal lead for brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics and worked for Acxiom as a software engineer providing business inteligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for Open Science Grid and then joined brainlife.io team in 2017.
+            Soichi works as a senior software engineer / techincal lead for brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics and worked for Acxiom as a software engineer providing business inteligence and analytics solutions to various fortune 500 companies including Discover, Citigroup, Dell/EMC and others. He joined Indiana University in 2008 to work for Open Science Grid and then joined brainlife.io team in 2017.
         </td>
     </tr>
     <tr>
@@ -50,7 +50,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Brent is a Ph.D. student at IU Psychological and Brain Sciences. He studies Alzheimer's disesase and relationship between aging and brain connectivities. He is our most trusted neuroimaging data-analysis expert who has helped us implement and troubleshoot many of brainlife.io Apps such as mrtrix3 preprocessing and ensemble-tracking App. He also built our lab servers currently used to run brainlife.io's online visualization tools. 
         </td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Brad is a Ph.D. student at Indiana University Bloomington studying Neuroscience and Vision Science. He studies the effect of athletic concussions and repetitive head impacts. He has developed many brainlife.io Apps including Trekker, THORA, tractprofile, ensembetracking, and many others. He developed these Apps not only for his own research but for others in brainlife.io community as a whole. He is a great troubleshooter and a skilled neuroinformaticist who can get things done. brainlife.io wouldn't have existed without him!
         </td>
     </tr>
     <tr>
