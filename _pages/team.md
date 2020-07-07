@@ -30,7 +30,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Project Director</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Franco is an associate professor at the department of psychology at UT Austin. Franco's work spans multiple fields of neuroscience with contributions to methods for mapping brain networks, understanding human brain neuroanatomy and connectivity, as well as to clarifying fundamental aspects of human visual perception and cognition. As the PI of brainlife.io, he strives to democratize neuroimaging data-analysis and accelerate scientific disovery by promoting reproducibility, and cloud computing.
         </td>
     </tr>
     <tr>
@@ -40,7 +40,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Soichi works as a senior software engineer / techincal lead for brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics and worked for Acxiom as a software engineer providing business inteligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for Open Science Grid and then joined brainlife.io team in 2017.
         </td>
     </tr>
     <tr>
@@ -56,11 +56,11 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/dan.jpg"><br>
-            <a href="mailto:iisdanbul@gmail.com">Dan Bullock</a><br>
+            <a href="mailto:iisdanbul@gmail.com">Daniel Bullock</a><br>
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Dan is a psychology and Neuroscience Ph.D. candidate at IU Bloomington. After working at University of Cincinnati, Duke University, and North Carolina State University, he joined Franco's lab in 2015 focusing on his anatomical white matter segmentation algorithm. Dan has since contributed to many brainlife.io Apps and contributed to the developement of brainlife.io platform. He is a strong advocate for graduate students and open science. 
         </td>
     </tr>
     <tr>
@@ -124,7 +124,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Communications and Outreach</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Stephanie joined in 2019 to lead the communication and outreach activities for brainlife.io. She develops content for brainlife.io newsletters, blogs, video, and engage with new members from the brainlife community. Stephanie has a bachelor's degree in journalism from Michigan State University. She also works for IUNI/CADRE project and prior to joining our group, she worked as an automotive journalist for trade publication Automotive News and as a social media and marketing manager for a Bloomington-area startup. She spends her free time playing roller derby and forcing people to look at pictures of her dog.
         </td>
     </tr>
     <tr>
@@ -134,18 +134,18 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Research Scientist</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in Clinical Neuropsychology, and PhD degree in Cognitive and Perceptual Neuroscience from the University of Groningen, The Netherlands. The aim of her doctoral project was to unravel mechanisms of neurodegeneration and neuroplasticity in patients with glaucoma using diffusion weighted MRI. As a postdoctoral fellow in the Simonyan lab, her current work focuses on brain structural networks in focal dystonias, such as spasmodic dysphonia and writer's cramp. Sandra is motivated to pursue an academic career and use neuroimaging to understand the etiology and diagnosis of neurological disorders.  
         </td>
     </tr>
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/giulia3.png"><br>
-            <a href="mailto:gberto@fbk.eu">Giulia Berto</a><br>
-            <span class="title">Graduate Student</span><br>
+            <a href="https://github.com/giulia-berto">Giulia Bertò</a><br>
+            <span class="title">Research Scientist</span><br>
             <span class="location">FBK, University of Trento</span><br>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Giulia has recently obtained a PhD from the University of Trento, Italy, focused on Machine Learning methods for Neuroscience, in particular for white matter bundle segmentation. Her research mainly regards neuroimaging data analysis for brain connectivity characterization. She is devoted to open science and has been contributing to the brainlife.io project by developing apps and workflows for diffusion MRI data analysis. Besides science and technology, Giulia enjoys hiking in the mountains, traveling, and cooking.
         </td>
     </tr>
     <tr>
@@ -228,7 +228,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lindsey was a Ph.D. student at IU Psychological and Brainsciences who implemented many of the early brainlife.io Apps and helped us bootstrap our project by using brainlife for her Ph.D. thesis. She was the key trailbrazer for brainlife.io functionalities and helped us ran large number of jobs through brainlife.io using our pipeline submission mechanism. She also contributed to many design and architectural decisions made early in our project.
         </td>
     </tr>
     <tr>
@@ -238,7 +238,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Kate was a software engineer at the Northwestern university who joined brainlife.io team in 2017 to help develop various Apps; most notably the HCP pipeline Apps. She was one of the first external collaborator and allowed us to expand our platform to other members of the neuroimaging community. She left brainlife.io to join Radiologics to lead the integration of cloud-based data processing and storage with the XNAT platform.
         </td>
     </tr>
     <tr>
@@ -248,7 +248,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Steven was by far the most gifted highschool gradudate that we had a privledge to work with. After joining our lab through Jetstream REU program, Steven contributed to the development of brainlife.io platform in the spring and summer of 2018. He helped us with our CLI tools, and implement various functionalities within the web UI. His inteligence and self-proclaimed "geeky"-ness is grealy missed to this day.
         </td>
     </tr>
     <tr>
@@ -259,7 +259,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="location">Amazon Inc, Seattle WA</span><br>
         </td>
         <td width="60%">
-            BIO...  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Aman worked for brainlife.io project during the summer of 2018 through Jetstream REU program. He helped us with implementing several dipy-workflow and AFQ segmentation Apps. He brought a lot of athletic energy into our lab and we greatly miss him.
         </td>
     </tr>
     </table>

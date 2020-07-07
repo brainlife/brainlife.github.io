@@ -31,3 +31,30 @@
     </td>
 </tr>
 </table>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_DdEi4sKJWYq6zIxOtJ381CtzsB8hh5o&callback=initMap" type="text/javascript"></script>
+<div id="map" style="height: 400px; margin-bottom: 20px;"></div>
+<script>
+var map;
+function initMap() {
+    fetch('assets/institutions.json').then(res=>res.json()).then(insts=>{
+        map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: 20, lng: 10 },
+            zoom: 2 
+        });
+        for(let name in insts) {
+            if(insts[name].lat && insts[name].lng) {
+                new google.maps.Marker({
+                    position: insts[name],
+                    map: map,
+                    title: name,
+                });
+            }
+        }
+    });
+}
+</script>
+
+<center>~350 users across 250 institutions / universities.</center>
+
+
