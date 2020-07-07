@@ -30,7 +30,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Project Director</span>
         </td>
         <td width="60%">
-            Franco is Director and Founder of brailife.io. Associate Professor of Psychology at the University of Texas, Austin, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. BEfore that, he was Postdoctoral Researcher at Columbia and Research Associate Stanford University and faculty at Indiana University. Franco's research spans across psychology, computer science and neuroscience. He is a Fellow of the Association for Psychological Science and Psychonomics Society and has received a Microsoft Investigator Fellowship and Janet Taylor Spence Award.
+            Franco is Director and Founder of brailife.io. Associate Professor of Psychology at the University of Texas, Austin, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia and Research Associate Stanford University and faculty at Indiana University. Franco's research spans across psychology, computer science and neuroscience. He is a Fellow of the Association for Psychological Science and Psychonomics Society and has received a Microsoft Investigator Fellowship and Janet Taylor Spence Award.
         </td>
     </tr>
     <tr>
