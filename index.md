@@ -13,6 +13,4 @@ layout: landing
 
 {% include landing.collab.html %}
 
-{% include landing.team.html %}
-
 

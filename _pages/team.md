@@ -40,8 +40,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            Soichi is senior software engineer and technical lead of brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics from the University of Arkansas and worked for Acxiom as a software engineer providing business inteligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for Open Science Grid and joined the brainlife.io team in 2017.
-        </td>
+        Soichi is senior software engineer and technical lead of brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics from the University of Arkansas and worked for Acxiom as a software engineer providing business inteligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for Open Science Grid and joined the brainlife.io team in 2017.        </td>
     </tr>
     <tr>
         <td width="40%" class="contact">
@@ -50,7 +49,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            Brent is a Ph.D. candidate in Psychological and Brain Sciences at Indiana University. His research focusses on methods for big data neuroscience and machine learning. His scientific interests are understanding the human brain and behavior relationships across the lifespan. Brent developed several brainlife.io Apps that allow users to process diffusion-weighted magnetic resonance imaging, perform tractography, and build structural brain networks. Brent likes snakes and heavy metal music.
+        Brent is a Ph.D. candidate in Psychological and Brain Sciences at Indiana University. His research focusses on methods for big data neuroscience and machine learning. His scientific interests are understanding the human brain and behavior relationships across the lifespan. Brent developed several brainlife.io Apps that allow users to process diffusion-weighted magnetic resonance imaging, perform tractography, and build structural brain networks. Brent likes snakes and heavy metal music.
         </td>
     </tr>
     <tr>
@@ -70,7 +69,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-            Brad is Ph.D. candidate in Vision Science and Neuroscience at Indiana University. His research focusses on the integration of multiple neuroimaging data modalities using machine learning to understand sports concussion and clinical vision science. Brad developed multiple Apps for brainlife.io as part of his research projects. He is passionate about science, sports, and civil rights. 
+        Brad is Ph.D. candidate in Vision Science and Neuroscience at Indiana University. His research focusses on the integration of multiple neuroimaging data modalities using machine learning to understand sports concussion and clinical vision science. Brad developed multiple Apps for brainlife.io as part of his research projects. He is passionate about science, sports, and civil rights. 
         </td>
     </tr>
     <tr>
@@ -111,7 +110,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/steph.jpg"><br>
-            <a href="mailto:smcgavin@iu.edu">Stephanie Andrea</a><br>
+            <a href="mailto:smcgavin@iu.edu">Stephanie McGavin</a><br>
             <span class="title">Communications and Outreach</span>
         </td>
         <td width="60%">
@@ -125,7 +124,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Research Scientist</span>
         </td>
         <td width="60%">
-Sandra is Postdoctoral Researcher in the Pestilli laboratory. She holds a B.A. in Neurolinguistics, an M.A. in Clinical Neuropsychology, and a Ph.D. in Cognitive and Perceptual Neuroscience from the University of Groningen. Before joining the team Sandra worked as Postdoctoral fellow at Massachusetts Medical General Hospital and Harvard Medical School. Sandra is motivated to pursue an academic career and use neuroimaging to understand the etiology and advance methods to improve the diagnose of vision and neurological disorders.
+        Sandra is Postdoctoral Researcher in the Pestilli laboratory. She holds a B.A. in Neurolinguistics, an M.A. in Clinical Neuropsychology, and a Ph.D. in Cognitive and Perceptual Neuroscience from the University of Groningen. Before joining the team Sandra worked as Postdoctoral fellow at Massachusetts Medical General Hospital and Harvard Medical School. Sandra is motivated to pursue an academic career and use neuroimaging to understand the etiology and advance methods to improve the diagnose of vision and neurological disorders.
         </td>
     </tr>
     <tr>
