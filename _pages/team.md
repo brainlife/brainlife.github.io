@@ -120,7 +120,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
     <tr>
         <td width="40%" class="contact">
             <img src="images/avatar/steph.jpg"><br>
-            <a href="mailto:smcgavin@iu.edu">Stephanie Andrea</a><br>
+            <a href="mailto:smcgavin@iu.edu">Stephanie McGavin</a><br>
             <span class="title">Communications and Outreach</span>
         </td>
         <td width="60%">
