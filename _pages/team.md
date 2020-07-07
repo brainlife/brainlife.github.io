@@ -134,7 +134,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Research Scientist</span>
         </td>
         <td width="60%">
-Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in Clinical Neuropsychology, and PhD degree in Cognitive and Perceptual Neuroscience from the University of Groningen, The Netherlands. The aim of her doctoral project was to unravel mechanisms of neurodegeneration and neuroplasticity in patients with glaucoma using diffusion weighted MRI. As a postdoctoral fellow in the Simonyan lab, her current work focuses on brain structural networks in focal dystonias, such as spasmodic dysphonia and writer's cramp. Sandra is motivated to pursue an academic career and use neuroimaging to understand the etiology and diagnosis of neurological disorders.  
+Sandra earned her Bachelor’s degree in Neurolinguistics, Master’s degree in Clinical Neuropsychology, and PhD degree in Cognitive and Perceptual Neuroscience from the University of Groningen, the Netherlands. During her doctoral studies she focused on white matter microstructure alterations in patients with vision impairment using diffusion-weighted MRI (dMRI). In 2017, Sandra joined Harvard Medical School as a postdoctoral fellow where she focused on brain networks using graph theoretical analysis combined with dMRI in neurological disorders affecting other sensory domains, such as speech and movement. Sandra is currently examining whether brain changes in glaucoma can be explained solely on the basis of decreased visual input or whether they are part of the clinical manifestation of the disease. 
         </td>
     </tr>
     <tr>
