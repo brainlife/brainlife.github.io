@@ -30,7 +30,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Project Director</span>
         </td>
         <td width="60%">
-            Franco is the Director and Founder of brailife.io. His passion is to democratize psychological and brain science. Associate Professor in the Department of Psychology at the University of Texas, Austin. Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. He has received Postdoctoral training at Columbia and Stanford University and held faculty positions at Indiana University. Franco's work spans multiple fields of psychology and neuroscience with contributions to understanding human behavior, brain function, and structure. He is a Fellow of the Association for Psychological Science and Psychonomics Society. Franco received awards such as a Microsoft Investigator Fellowship and Janet Taylor Spence Award. His work has been funded by the National Science Foundation, the National Institute of Health, the U.S. Department of Defense, the Association for Psychological Science, and Microsoft Research. He is Editorial Board member of Springer:Nature’s Scientific Data and Scientific Reports, as well as, Brain Structure and Function.
+            Franco is Director and Founder of brailife.io. Associate Professor in the Department of Psychology at the University of Texas, Austin, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. He received Postdoctoral training at Columbia and Stanford University and held faculty positions at Indiana University. Franco's research spans across psychology, computer science and neuroscience. He is a Fellow of the Association for Psychological Science and Psychonomics Society and received recognition such as a Microsoft Investigator Fellowship and Janet Taylor Spence Award. His work is funded by the National Science Foundation, the National Institute of Health, the U.S. Department of Defense, the Association for Psychological Science, and Microsoft.
         </td>
     </tr>
     <tr>
@@ -124,7 +124,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Research Scientist</span>
         </td>
         <td width="60%">
-        Sandra is Postdoctoral Researcher in the Pestilli laboratory. She holds a B.A. in Neurolinguistics, an M.A. in Clinical Neuropsychology, and a Ph.D. in Cognitive and Perceptual Neuroscience from the University of Groningen. Before joining the team Sandra worked as Postdoctoral fellow at Massachusetts Medical General Hospital and Harvard Medical School. Sandra is motivated to pursue an academic career and use neuroimaging to understand the etiology and advance methods to improve the diagnose of vision and neurological disorders.
+        Sandra is Postdoctoral Researcher in the Pestilli laboratory. She holds a B.A. in Neurolinguistics, an M.A. in Clinical Neuropsychology, and a Ph.D. in Cognitive and Perceptual Neuroscience from the University of Groningen. Before joining the team Sandra worked as Postdoctoral fellow at Massachusetts Medical General Hospital and Harvard Medical School. Sandra is motivated to pursue an academic career and use neuroimaging to understand the etiology and advance methods to improve diagnose of vision and neurological disorders.
         </td>
     </tr>
     <tr>
@@ -144,7 +144,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Research Assistant</span><br>
         </td>
         <td width="60%">
-            David holds a B.A. in Neuroscience and Mathematics from Indiana University. He has developed brainlife.io Apps that allow processing of functional neuroimaging data with application to vision science. He enjoys coding, learning new things, playing with his dog, and taking naps. He plans to pursue a Ph.D. in Neuroscience.
+            David holds a B.A. in Neuroscience and Mathematics from Indiana University. He has developed brainlife.io Apps that allow processing of functional neuroimaging data with application to vision science. He enjoys coding, learning new things, playing with his dog, and taking naps. He is determined to pursue a Ph.D. in Neuroscience.
         </td>
     </tr>
     </table>
@@ -226,7 +226,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            Kate is a support and development software engineer. She contributed several brainlife.io Apps related to the Human Connectome Project standard processing pipeline. Kate currently works for Radiologics.
+            Kate is a support and development software engineer. She contributed several brainlife.io Apps related to the Human Connectome Project standard processing pipeline. After working with the brainlife.io team Kate took a position as Software Engineer at Radiologics.
         </td>
     </tr>
     <tr>
@@ -236,7 +236,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-            Steven holds a B.A. in Computer Science from Indiana University. He joined the brainlife.io as a high school student and contributed to the development of brainlife.io platform functionality. Steve refers to himself as a "geek." 
+            Steven holds a B.A. in Computer Science from Indiana University. He joined the brainlife.io as a high school student and contributed to the development of brainlife.io platform functionality. Steve refers to himself as a "geek." After working with the brainlife.io team Steve took at position as Software Engineer at PSI Services.
         </td>
     </tr>
     <tr>
@@ -244,10 +244,9 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <img src="images/avatar/aman.jpg"><br>
             <a href="aman.arya524@gmail.com">Aman Arya</a><br>
             <span class="title">Software Engineer</span><br>
-            <span class="location">Amazon Inc, Seattle WA</span><br>
         </td>
         <td width="60%">
-            Aman holds a B.A. in Computer Science from the University of Washington. He contributed multiple brainlife.io Apps integrating DIPY and brainlife.io. He loves coding and likes to take breaks by performing as many push-ups as he can.  
+            Aman holds a B.A. in Computer Science from the University of Washington. He contributed multiple brainlife.io Apps integrating DIPY and brainlife.io. He loves coding and likes to take breaks by performing as many push-ups as he can. After working with the brainlife.io team Aman took a position as Software Engineer at Amazon.
         </td>
     </tr>
     </table>
