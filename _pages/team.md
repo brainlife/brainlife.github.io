@@ -6,7 +6,7 @@ headerimg: "/images/integration-1777537_1920.jpg"
 ---
 
 <p>
-brainlife.io is actively developed by a group of dedicated neuroscientists and professional software engineers.
+brainlife.io is developed by an open community of scientists and a group of dedicated trainees and professional software engineers.
 </p>
 <p>
     <img src="/images/team.jpg" width="100%" class="team"/>
@@ -30,7 +30,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Project Director</span>
         </td>
         <td width="60%">
-            Franco is Director and Founder of brailife.io. Associate Professor of Psychology at the University of Texas, Austin, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia and Research Associate Stanford University and faculty at Indiana University. Franco's research spans across psychology, computer science and neuroscience. He is a Fellow of the Association for Psychological Science and Psychonomics Society and has received a Microsoft Investigator Fellowship and Janet Taylor Spence Award.
+            Franco is Director and Founder of brainlife.io. Associate Professor of Psychology at the University of Texas, Austin, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia and Research Associate Stanford University and faculty at Indiana University. Franco's research spans across psychology, computer science and neuroscience. He is a Fellow of the Association for Psychological Science and Psychonomics Society and has received a Microsoft Investigator Fellowship and Janet Taylor Spence Award.
         </td>
     </tr>
     <tr>
@@ -49,7 +49,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-        Brent is a Ph.D. candidate in Psychological and Brain Sciences at Indiana University. His research focusses on methods for big data neuroscience and machine learning. His scientific interests are understanding the human brain and behavior relationships across the lifespan. Brent developed several brainlife.io Apps that allow users to process diffusion-weighted magnetic resonance imaging, perform tractography, and build structural brain networks. Brent likes snakes and heavy metal music.
+        Brent is a Ph.D. candidate in Psychological and Brain Sciences at Indiana University. His research focusses on methods for big data neuroscience and machine learning. His scientific interests are understanding the human brain and behavior relationships across the lifespan. Brent developed several brainlife.io Apps that allow users to process raw diffusion-weighted magnetic resonance imaging, perform advanced brain tractography, and build structural brain networks. Brent loves snakes and enjoys listening to heavy metal music.
         </td>
     </tr>
     <tr>
@@ -69,7 +69,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-        Brad is Ph.D. candidate in Vision Science and Neuroscience at Indiana University. His research focusses on the integration of multiple neuroimaging data modalities using machine learning to understand sports concussion and clinical vision science. Brad developed multiple Apps for brainlife.io as part of his research projects. He is passionate about science, sports, and civil rights. 
+        Brad is Ph.D. candidate in Vision Science and Neuroscience at Indiana University. His research focusses on the integration of multiple neuroimaging data modalities using machine learning to understand the effects of sports concussion on the brain and the impact of clinical conditions to human vision. Brad developed multiple Apps for brainlife.io as part of his research projects. He is passionate about science, sports, and civil rights. 
         </td>
     </tr>
     <tr>
@@ -80,7 +80,7 @@ brainlife.io is actively developed by a group of dedicated neuroscientists and p
         </td>
         <td width="60%" style="position: relative;">
             <p>
-            Sophia is Postdoctoral Fellow in the Pestilli lab. She holds a Ph.D. from Indiana University. Her research focuses on understanding brain plasticity and changes across the lifespan. Sophia has developed Apps for brainlife.io to advance her scientific projects. She enjoys foraging for wild edibles, running, hiking, yoga, and good tea during a book club.
+            Sophia is Postdoctoral Fellow in the Pestilli lab. She holds a Ph.D. from Indiana University. Her research focuses on understanding brain plasticity and changes across the lifespan. Sophia has developed Apps for brainlife.io to advance her scientific projects. She enjoys foraging for wild edibles, running, hiking, yoga, good tea cup of tea and a book club.
             </p>
         </td>
     </tr>
