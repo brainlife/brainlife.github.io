@@ -30,7 +30,7 @@ brainlife.io is developed by an open community of scientists and a group of dedi
             <span class="title">Project Director</span>
         </td>
         <td width="60%">
-            Franco is Director and Founder of brainlife.io. Associate Professor of Psychology at the University of Texas, Austin, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia and Research Associate Stanford University and faculty at Indiana University. Franco's research spans across psychology, computer science and neuroscience. He is a Fellow of the Association for Psychological Science and Psychonomics Society and has received a Microsoft Investigator Fellowship and Janet Taylor Spence Award.
+            Franco is Director and Founder of brainlife.io. Associate Professor of Psychology at the University of Texas, Austin, Franco holds a Ph.D. from New York University and a B.A. from the University of Rome La Sapienza. Before that, he was Postdoctoral Researcher at Columbia University, Research Associate at Stanford University and faculty at Indiana University. Franco's research spans across psychology, computer science and neuroscience. He is a Fellow of the Association for Psychological Science and Psychonomics Society and has received a Microsoft Investigator Fellowship and Janet Taylor Spence Award.
         </td>
     </tr>
     <tr>
@@ -125,7 +125,7 @@ brainlife.io is developed by an open community of scientists and a group of dedi
             <span class="title">Research Scientist</span>
         </td>
         <td width="60%">
-        Sandra is Postdoctoral Researcher in the Pestilli Laboratory. She holds a B.A. in Neurolinguistics, an M.A. in Clinical Neuropsychology, and a Ph.D. in Cognitive and Perceptual Neuroscience from the University of Groningen. Before joining the brainlife.io team Sandra worked as Postdoctoral fellow at Harvard Medical School. Sandra is pursuing an academic career and plans to use neuroimaging to understand the etiology and advance methods to improve the diagnose of vision and neurological disorders.
+        Sandra is Postdoctoral Researcher in the Pestilli Laboratory. She holds a B.A. in Neurolinguistics, an M.A. in Clinical Neuropsychology, and a Ph.D. in Cognitive and Perceptual Neuroscience from the University of Groningen. Before joining the brainlife.io team Sandra worked as Postdoctoral fellow at Harvard Medical School. Sandra is pursuing an academic career and plans to use neuroimaging for understanding the etiology and advance diagnostic of visual and neurological disorders.
         </td>
     </tr>
     <tr>
@@ -135,7 +135,7 @@ brainlife.io is developed by an open community of scientists and a group of dedi
             <span class="title">Data and Application Engineer</span><br>
         </td>
         <td width="60%">
-        Giulia is a Data and Application Engineer. She holds a Ph.D. from the University of Trento. Her work focuses on the application of Machine Learning methods to Neuroscience data. She is devoted to Open Science and contributes to brainlife.io by developing Apps for MRI data analysis and machine learning. Giulia enjoys mountain hiking, traveling, and cooking.
+        Giulia is a Data and Application Engineer. She holds a Ph.D. from the University of Trento. Her work focuses on the application of Machine Learning methods to Neuroscience data. She is devoted to Open Science and contributes to brainlife.io by developing Apps for neuroimaging data analysis and machine learning. Giulia enjoys the mountains, hiking, traveling, and cooking.
         </td>
     </tr>
     <tr>
