@@ -40,7 +40,7 @@ brainlife.io is developed by an open community of scientists and a group of dedi
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-        Soichi is senior software engineer and technical lead of brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics from Henderson State University and worked for Acxiom as a software engineer providing business intelligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for Open Science Grid and joined the brainlife.io team in 2017.
+        Soichi is senior software engineer and technical lead of the brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with a B.S. in computer science and physics from Henderson State University and worked for Acxiom as a software engineer providing business intelligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for the Open Science Grid and joined the brainlife.io team in 2017.
         </td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@ brainlife.io is developed by an open community of scientists and a group of dedi
             <span class="title">Graduate Student</span>
         </td>
         <td width="60%">
-        Brad is Ph.D. candidate in Vision Science and Neuroscience at Indiana University. His research focusses on the integration of multiple neuroimaging data modalities using machine learning to understand the effects of sports concussion on the brain and the impact of clinical conditions to human vision. Brad developed multiple Apps for brainlife.io as part of his research projects. He is passionate about science, sports, and civil rights. 
+        Brad is a Ph.D. candidate in Vision Science and Neuroscience at Indiana University. His research focusses on the integration of multiple neuroimaging data modalities using machine learning to understand the effects of sports concussion on the brain and the impact of clinical conditions to human vision. Brad developed multiple Apps for brainlife.io as part of his research projects. He is passionate about science, sports, and civil rights. 
         </td>
     </tr>
     <tr>
@@ -105,7 +105,7 @@ brainlife.io is developed by an open community of scientists and a group of dedi
         </td>
         <td width="60%">
             <p>
-    Josh is Ph.D. candidate at Indiana University. He conducts research at the intersection of neuroimaging and network science. Josh has contributed to brainlife.io Apps to process functional and structural neuroimaging data to build brain networks. Josh enjoys hipster coffee, RollerCoaster Tycoon 2, and rooting for Tottenham Hotspur. </p>
+    Josh is a Ph.D. candidate at Indiana University. He conducts research at the intersection of neuroimaging and network science. Josh has contributed to brainlife.io Apps to process functional and structural neuroimaging data to build brain networks. Josh enjoys hipster coffee, RollerCoaster Tycoon 2, and rooting for Tottenham Hotspur. </p>
         </td>
     </tr>
     <tr>
@@ -115,7 +115,7 @@ brainlife.io is developed by an open community of scientists and a group of dedi
             <span class="title">Communications and Outreach</span>
         </td>
         <td width="60%">
-            Stephanie is the brainlife.io outreach and communication manager. She develops content for brainlife.io newsletters, blogs, video, and engages with the brainlife.io community members. Stephanie has a bachelor's degree in journalism from Michigan State University. She works for the Indiana Network Science Institute and the Collaborative Archive & Data Research Environment project. Prior to joining brainlife.io, Stephanie worked as an automotive journalist for trade publication Automotive News and as a social media and marketing manager for a Bloomington-area startup. She spends her free time playing roller derby and forcing people to look at pictures of her dog.
+            Stephanie is the brainlife.io outreach and communications manager. She develops content for brainlife.io newsletters, blogs, video, and engages with the brainlife.io community members. Stephanie has a bachelor's degree in journalism from Michigan State University. She works for the Indiana Network Science Institute and the Collaborative Archive & Data Research Environment project. Prior to joining brainlife.io, Stephanie worked as an automotive journalist for trade publication Automotive News and as a social media and marketing manager for a Bloomington-area startup. She spends her free time playing roller derby and forcing people to look at pictures of her dog.
         </td>
     </tr>
     <tr>
