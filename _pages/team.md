@@ -40,7 +40,8 @@ brainlife.io is developed by an open community of scientists and a group of dedi
             <span class="title">Software Engineer</span>
         </td>
         <td width="60%">
-        Soichi is senior software engineer and technical lead of brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics from the University of Arkansas and worked for Acxiom as a software engineer providing business inteligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for Open Science Grid and joined the brainlife.io team in 2017.        </td>
+        Soichi is senior software engineer and technical lead of brainlife.io platform. His passion is to make supercomputers easier to use by researchers and scientists. He graduated with B.S. in computer science and physics from Henderson State University and worked for Acxiom as a software engineer providing business intelligence and analytics solutions to various fortune 500 companies such as Discover, Citigroup, Dell/EMC. He joined Indiana University in 2008 to work for Open Science Grid and joined the brainlife.io team in 2017.
+        </td>
     </tr>
     <tr>
         <td width="40%" class="contact">
