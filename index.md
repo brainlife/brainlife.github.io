@@ -7,10 +7,9 @@ layout: landing
 
 {% include landing.everyone.html %}
 
-{% include landing.start.html %}
-
 {% include landing.mission.html %}
 
-{% include landing.collab.html %}
+{% include landing.pi.html %}
 
+{% include landing.start.html %}
 
