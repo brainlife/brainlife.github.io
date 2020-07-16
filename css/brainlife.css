@@ -443,6 +443,7 @@ footer.site-footer a {
     color: white;
 }
 footer.site-footer-sub {
+position: relative;
 margin-top: 5rem;
 padding-top: 2rem;
 padding-bottom: 2rem;
@@ -477,15 +478,35 @@ table.layout-table {
     border-collapse:separate; 
     border-spacing: 0 2em;
 }
-
-/*
-.theicon {
-display: inline-block;
-padding: 25px;
-width: auto;
-border-radius: 50%;
-margin-bottom: 20px;
-box-shadow: 2px 2px 15px #ccc;
+.main-content .colorback .sponsor-header {
+    position: relative;
+    z-index: 5;
+    opacity: 1.0;
+    margin-bottom: 5rem;
 }
-*/
+.sponsor-box {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+}
+.sponsor-content {
+    padding-top: 30px;
+    opacity: 0.7;
+}
+.sponsor-content a {
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+#mc_embed_signup {
+clear:left; font-size:14px;  width: 100%;
+}
+#mc_embed_signup form {
+padding: 0px;
+}
+#mc_embed_signup .mc-field-group {
+color: #666;
+}
 
