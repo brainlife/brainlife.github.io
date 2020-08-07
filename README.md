@@ -4,7 +4,7 @@
 This repository contains website content for the project landing page [brainlife.io](https://brainlife.io)
 
 ### Authors
-- [Bradley Caron](bacaron@iu.edu)
+- [Soichi Hayashi](hayashis@iu.edu)
 - [NAME SURNAME](OTHER@WHERE.edu)
 
 ### Contributors
