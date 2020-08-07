@@ -1,15 +1,18 @@
 
 # Brainlife.io Landing Website
 
-This reporistory contains website content for the project landing page [brainlife.io](https://brainlife.io)
+This repository contains website content for the project landing page [brainlife.io](https://brainlife.io)
 
 ### Authors
-- Soichi Hayashi (hayashis@iu.edu)
+- [Bradley Caron](bacaron@iu.edu)
+- [NAME SURNAME](OTHER@WHERE.edu)
 
 ### Contributors
-- Franco Pestilli (frakkopesto@gmail.com)
+- [Franco Pestilli](frakkopesto@gmail.com)
 
-### Funding 
+### Funding Acknowledgement
+brainlife.io is publicly funded and for the sustainability of the project it is helpful to Acknowledge the use of the platform. We kindly ask that you acknowledge the funding below in your publications and code reusing this code.
+
 [![NSF-BCS-1734853](https://img.shields.io/badge/NSF_BCS-1734853-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1734853)
 [![NSF-BCS-1636893](https://img.shields.io/badge/NSF_BCS-1636893-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1636893)
 [![NSF-ACI-1916518](https://img.shields.io/badge/NSF_ACI-1916518-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1916518)
@@ -17,7 +20,8 @@ This reporistory contains website content for the project landing page [brainlif
 [![NIH-NIBIB-R01EB029272](https://img.shields.io/badge/NIH_NIBIB-R01EB029272-green.svg)](https://grantome.com/grant/NIH/R01-EB029272-01)
 
 ### Citations
-Please cite the following articles when publishing papers that used data, code or other resources created by the brainlife.io community.
+We kindly ask that you cite the following articles when publishing papers and code using this code. 
 
 1. Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019). [https://doi.org/10.1038/s41597-019-0073-y](https://doi.org/10.1038/s41597-019-0073-y)
 
+#### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
